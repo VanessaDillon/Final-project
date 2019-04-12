@@ -1,0 +1,283 @@
+
+body{
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: rgba(65, 65, 50, 0.822);
+}
+
+.logo{
+    max-width: 100px; 
+    height: auto;
+    padding-top: 15px;
+    margin-left: 30px;
+}
+.navbar{
+    background-color: rgb(219, 215, 215);
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 5px solid gray;
+}
+
+.nav-main li{
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 30px;
+    font-size: 22px;
+    padding-top: 15px;
+    
+}
+.nav-main a{
+    color: goldenrod;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+}
+.nav-main a:hover{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    
+}
+
+.login{
+    position: relative;
+    display: flex;
+    float: right;
+    
+}
+.login:hover .drawerlogin{
+    display: block;
+}
+.drawerlogin{
+    display: none;
+    position: absolute;
+    height: 300px;
+    color: white;
+    width: 350px;
+    right: 50px;
+    background: #274b57;
+background: linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+background: -webkit-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+    box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+-webkit-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+-moz-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+    z-index: 2;
+    border: 1px solid white;
+}
+.drawerlogin h1{
+    text-align: center;
+    text-shadow: 4px 2px 3px rgb(238, 219, 219);
+    color: white;
+
+}
+.drawerlogin input{
+    color: rgb(32, 53, 5);
+    font-size: 18px;
+}
+
+.drawerlogin button{
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.drawerlogin a{
+    color: white;
+    text-decoration: none;
+}
+.drawerlogin .text{
+    float: left;
+}
+
+.flogo{
+    height: auto;
+    width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.motto{
+    text-shadow: 2px 2px 2px white;
+    border-bottom: 1px solid black;
+    border-width: 5px;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.motto i{
+    color: darkslategray;
+}
+.submit{
+    margin-top: 10px
+}
+.award{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-top: 4px solid goldenrod;
+    background-color: rgba(255, 230, 8, 0.253);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 3px 153px 166px rgba(255,242,242,0.61);
+-webkit-box-shadow: 2px 3px 153px 166px rgb(255, 255, 255);
+-moz-box-shadow: 2px 3px 153px 166px rgba(255,242,242,0.61);
+}
+form{
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-top: 0px;
+}
+.formdata{
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    
+}
+.formdata p{
+    color: white;
+    display: inline-flex;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#medal{
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+}
+.award-panel p{
+    text-align: center;
+}
+.ad{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#rental{
+    position: relative;
+}
+.box{
+    position: absolute;
+    bottom: 100px;
+    left: 170px;
+    background-color: rgba(10, 10, 2, 0.897);
+    color:white;
+    border-radius: 5%;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.70);
+-webkit-box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.72);
+-moz-box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.76);
+}
+.box button{
+    background-color: black;
+}
+.box button:hover{
+    background-color: rgba(158, 158, 17, 0.918);
+}
+.panels h1{
+    text-align: center;
+    color: goldenrod;
+    font-size: 24px;
+    text-shadow: 3px 2px 1px blanchedalmond;
+}
+.panels{
+    width: 100%;
+   margin-bottom: 50px;
+   margin-top:50px;
+   padding-top: 15px;
+   
+}
+.panels img{
+    height: auto;
+    width: 450px;
+    border: 1px solid black;
+}
+.features{
+    box-shadow: 2px 3px 153px 166px rgba(2, 2, 2, 0.801);
+-webkit-box-shadow: 2px 3px 153px 166px rgba(255, 255, 255, 0.74);
+-moz-box-shadow: 2px 3px 153px 166px rgba(255,242,242,0.61);
+    width: 75%;
+    border-top: 3px solid goldenrod;
+    padding-top: 20px;
+}
+.features:hover{
+    background-color: rgba(48, 43, 43, 0.959);
+    color: rgb(226, 224, 224);
+    transition: all;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.features p:hover{
+    color: white;
+    text-shadow: 4px 2px 2px black;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(196, 192, 192);
+    width: 100%;
+    border: 1px solid rgba(73, 72, 72, 0.8);
+    color: darkslategray;
+    border-top: 1px solid gray;
+    padding-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    text-decoration: none;
+    
+}
+.footer a{
+    color: darkslategray;
+}
+.footer a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 3px goldenrod;
+}
+.footer h3{
+    font-size: 28px;
+    color: rgb(10, 10, 10);
+}
+#fsocial{
+    color: white;
+    margin-right: 15px;
+    
+    
+}
+.slick-slider{
+    border: 3px solid white;
+    position: relative;
+    width: 100%;
+}
+.slick-slider img{
+    height: 600px;
+    width: 1000px;
+}
+.banner .brandlogo{
+    position: absolute;
+    bottom: 75px;
+    left: 75px;
+    
+}
+.banner .brandlogo img:hover{
+    box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
+-webkit-box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
+-moz-box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.brandlogo img{
+    height: 200px;
+    width: auto;
+}

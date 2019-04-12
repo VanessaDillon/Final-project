@@ -1,0 +1,138 @@
+
+
+#Logo{
+    z-index:1;
+    overflow: hidden;
+}
+.navbar{
+    background-color: rgba(197, 194, 194, 0.582);
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 5px solid grey;
+    
+}
+.products img{
+    height: auto;
+    width: 350;
+    
+}
+.products .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav-main li{
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 30px;
+    font-size: 22px;
+    padding-top: 15px;
+}
+.nav-main a{
+    color: goldenrod;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+}
+.nav-main a:hover{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    
+}
+.login{
+    position: relative;
+    display: flex;
+    float: right;
+    
+}
+.login:hover .drawerlogin{
+    display: block;
+}
+.drawerlogin{
+    display: none;
+    position: absolute;
+    height: 300px;
+    color: white;
+    width: 350px;
+    right: 50px;
+    background: #274b57;
+background: linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+background: -webkit-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+    box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+-webkit-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+-moz-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+    z-index: 2;
+    border: 1px solid white;
+}
+.drawerlogin h1{
+    text-align: center;
+    text-shadow: 4px 2px 3px rgb(238, 219, 219);
+    color: white;
+
+}
+.drawerlogin input{
+    color: rgb(32, 53, 5);
+    font-size: 18px;
+}
+
+.drawerlogin button{
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.drawerlogin a{
+    color: white;
+    text-decoration: none;
+}
+.drawerlogin .text{
+    float: left;
+}
+
+
+
+.flogo{
+    height: auto;
+    width: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
+    width: 100%;
+    border: 1px solid rgba(73, 72, 72, 0.8);
+    color: white;
+    border-top: 1px solid gray;
+    padding-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    text-decoration: none;
+    
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 3px goldenrod;
+}
+.footer h3{
+    font-size: 28px;
+    color: rgb(10, 10, 10);
+}
+#fsocial{
+    color: white;
+    margin-right: 15px;
+    
+    
+}
