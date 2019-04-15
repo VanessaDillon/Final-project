@@ -1,5 +1,4 @@
 
-
 #Logo{
     z-index:1;
     overflow: hidden;
@@ -11,20 +10,48 @@
     border-top: 5px solid grey;
     
 }
-.products img{
-    height: auto;
-    width: 350;
+
+.products .row{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+.product{
+    background-color: whitesmoke;
+    
+    margin-right: 25px;
+    padding-bottom: 35px;
+
+
+}
+.products button{
+    background-color: rgba(128, 128, 128, 0.726);
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.products button:hover{
+    background-color: rgba(217, 240, 11, 0.39);
+    border: 2px solid rgba(46, 34, 5, 0.897);
     
 }
-.products .row{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.product:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 .nav-main li{
     text-decoration: none;
     display: inline-flex;
     flex-direction: row;
-    margin-right: 30px;
+    margin-right: 20px;
     font-size: 22px;
     padding-top: 15px;
 }
@@ -134,5 +161,10 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     color: white;
     margin-right: 15px;
     
+    
+} 
+.products img{
+    height: 100%;
+    width: 100%;
     
 }
