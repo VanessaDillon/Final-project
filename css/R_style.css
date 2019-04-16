@@ -1,4 +1,6 @@
-
+body{
+    background-color: whitesmoke;
+}
 #Logo{
     z-index:1;
     overflow: hidden;
@@ -20,7 +22,6 @@
 
 }
 .product{
-    background-color: whitesmoke;
     
     margin-right: 25px;
     padding-bottom: 35px;
@@ -46,6 +47,24 @@
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
+}
+.selection ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.selection li{
+    display: flex;
+    margin-left:25px;
+}
+
+.breadcrumb li{
+    font-size: 20px;
+    
+}
+.breadcrumb a{
+    color: white;
+    text-decoration: none;
 }
 .nav-main li{
     text-decoration: none;
@@ -164,11 +183,77 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     
 } 
 .products img{
-    height: 100%;
-    width: 100%;
-    
+    height: 200px;
+    width: 400px;
 }
-.product{
-    background-color: rgb(238, 235, 235);
+.products img:hover{
+    border: 5px solid maroon;
+    transition: all 1s ease-in-out;
+}
 
-}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    //CSS
+    
+  }
