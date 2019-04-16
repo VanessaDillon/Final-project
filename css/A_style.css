@@ -1,9 +1,7 @@
 body{
     font-family: 'ZCOOL XiaoWei', serif;
-    background: #4d3c3c;
-background: linear-gradient(90deg,#4d3c3c 0%, #ac9af3 80%);
-background: -webkit-linear-gradient(90deg,#4d3c3c 0%, #120e20 80%);
-background: -moz-linear-gradient(90deg,#4d3c3c 0%, #292341 80%);
+    background-color: #f5f3f3;
+
 }
 .logo{
     height: auto;
@@ -106,18 +104,20 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
 .about{
     text-align:center;
     
-
-    padding-bottom:100px;
-    padding-top: 155px;
+    border-top: 10px solid red;
+    border-bottom: 2px solid black;
+    border-left: 3px solid rgb(102, 101, 101);
+    border-right: 3px solid rgb(102, 101, 101);
+    padding-bottom: 50px;
+    margin-top: 35px;
+    /* padding-top: 155px;
     margin-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 25px; */
     color: white;
     background: url("../images/luxury.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
     
 }
 .about p{
@@ -132,9 +132,9 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
 .about p:hover{
     color:white;
     font-size: 14px;
-    text-shadow: 1px 1px 1px white;
-    background-color: rgba(14, 11, 11, 0.897);
-    transition: all 1s ease-out;
+    text-shadow: 2px 2px 2px rgba(241, 240, 240, 0.87);
+    background-color: rgba(240, 17, 17, 0.89);
+    transition: all 1s ease-in-out;
 }
 .title{
     font-size: 48px;
@@ -146,9 +146,7 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
 }
 
 .profiles{
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
     color: whitesmoke;
     background-color: rgba(241, 217, 156, 0.521);
     border: 2px solid grey;
@@ -156,6 +154,20 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     margin-top: 35px;
 
 
+}
+.profiles:hover{
+    border: 15px solid white;
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+    transition: all 1s ease-in-out;
+}
+.profiles:hover h2{
+    color: rgba(24, 12, 133, 0.836);
+    font-size: 38px;
+    transition: all 1s ease-in;
+}
+.profiles:hover p{
+    color: red;
 }
 .profiles h2{
     text-shadow: 1px 1px 1px black;
@@ -166,6 +178,10 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     text-align: center;
     font-size: 35px;
     
+}
+.profiles:hover h1{
+    color: maroon;
+    text-shadow: 1px 1px 1px black;
 }
 .profiles p{
     text-align: center;
@@ -197,7 +213,7 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     
 }
 .testimonials{
-    background-color: whitesmoke;
+    background-color: rgba(220, 173, 231, 0.5);
     
     margin-top: 180px;
     margin-bottom: 120px;
@@ -208,10 +224,24 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
 }
 .testimonials p:hover{
     text-shadow: 1px 1px 1px white;
+    color: maroon;
+    font-size: 18px;
+    transition: all 1s ease-in;
+}
+.fa-user-circle{
+    color: rgb(211, 136, 211);
     
 }
 
-
+.testimonials{
+    border: 7px solid rgb(160, 160, 160);
+}
+.testimonials:hover h2{
+    color: whitesmoke;
+    font-size: 55px;
+    transition: all 1s ease-in;
+    text-shadow: 3px 3px 3px rgba(112, 14, 112, 0.74);
+}
 .footer{
     background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
     width: 100%;
