@@ -161,6 +161,12 @@ form{
     margin-top: 50px;
     margin-bottom: 50px;
     
+    
+}
+.ad:hover{
+    border: 10px solid rgba(143, 142, 143, 0.904);
+    transition: all 1s ease-in-out;
+
 }
 #rental{
     position: relative;
@@ -168,7 +174,7 @@ form{
 .box{
     position: absolute;
     bottom: 100px;
-    left: 170px;
+    left: 150px;
     background-color: rgba(10, 10, 2, 0.897);
     color:white;
     border-radius: 5%;
@@ -400,5 +406,5 @@ form{
         width: 300px;
         top: 25px;
     }
-    
+
   }
