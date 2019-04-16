@@ -283,3 +283,121 @@ form{
     height: 200px;
     width: auto;
 }
+
+
+
+/* Responsive */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .box{
+        position: absolute;
+        left: 80px;
+        bottom: 55px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .adbox{
+        margin-top: 65px;
+        margin-bottom: 50px;
+    }
+    .box button{
+        position: absolute;
+        right: 50px;
+        bottom: 5px;
+        background-color: goldenrod;
+    }
+    .formdata p{
+        display: flex;
+        flex-direction: column;
+    }
+    .motto h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .slick-slider img{
+        height: 300px;
+        width: 300px;
+
+    }
+    .brandlogo img{
+        height: 75px;
+        width: 170px;
+        position: relative;
+        top: 115px;
+    }
+    .nav-main li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mlogo{
+        position: relative;
+        margin-left: 25px;
+    }
+    .drawerlogin{
+        position: absolute;
+        right: 0px;
+        height: 300px;
+        width: 300px;
+        top: 25px;
+    }
+  }
