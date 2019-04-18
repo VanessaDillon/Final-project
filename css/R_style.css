@@ -1,3 +1,35 @@
+/* video #bgVideo {
+    position: absolute; /*Play the video in full screen mode*/
+    /* overflow: hidden;
+    min-width: 100%;
+  min-height: 100%;
+  
+bottom:0;
+left:0;
+    z-index: -1; /*Put the video behind all other elements */
+  /* } */ 
+  
+@media only screen and (max-width: 768px) {
+    video {
+        display:none;
+    }
+    body{
+        background-image: url(images/driving.jpg);
+    }
+}
+
+video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 50px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1000;
+    
+}
+
+
 body{
     background-color: whitesmoke;
 }
@@ -12,7 +44,12 @@ body{
     border-top: 5px solid grey;
     
 }
-
+.car{
+    background-color: rgba(218, 165, 32, 0.315);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.678);
+    margin-top: 25px;
+}
 .products .row{
     padding-top: 40px;
     padding-bottom: 30px;
@@ -53,7 +90,7 @@ body{
     flex-direction: row;
     
 }
-.selection li{
+.breadcrumb li{
     display: flex;
     margin-left:25px;
 }
@@ -65,6 +102,18 @@ body{
 .breadcrumb a{
     color: white;
     text-decoration: none;
+}
+.b-crumb ul{
+    background-color: rgba(218, 165, 32, 0.836);
+}
+.breadcrumb li{
+    border-top: 4px solid rgba(71, 7, 71, 0.801);
+    transition: border 1s ease-in;
+}
+.breadcrumb a:hover{
+   text-decoration: none;
+    color: white;
+    
 }
 .nav-main li{
     text-decoration: none;
@@ -191,6 +240,17 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     transition: all 1s ease-in-out;
 }
 
+form{
+    background-color: rgba(253, 253, 253, 0.158);
+    border-radius: 15px;
+    color: whitesmoke;
+    margin-top: 15px;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+    text-align: center;
+}
+form h1{
+    padding-top: 10px;
+}
 
 /* 
   ##Device = Desktops
