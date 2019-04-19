@@ -17,21 +17,21 @@ left:0;
         background-image: url(images/driving.jpg);
     }
 }
-
-video {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    margin-top: 50px;
-    left: 0px;
-    bottom: 0px;
-    z-index: -1000;
-    
+#bgVideo{
+    position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
 }
 
 
 body{
     background-color: whitesmoke;
+
 }
 #Logo{
     z-index:1;
@@ -42,28 +42,24 @@ body{
     width: 100%;
     border-bottom: 1px solid black;
     border-top: 5px solid grey;
-    
 }
 .car{
-    background-color: rgba(218, 165, 32, 0.315);
-    border-radius: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.678);
-    margin-top: 25px;
+    background-color: rgba(218, 165, 32, 0);
+    margin: 50px 100px 100px 50px;
+    
 }
 .products .row{
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 
 }
 .product{
-    
+    color: white;
     margin-right: 25px;
     padding-bottom: 35px;
-
-
 }
 .products button{
     background-color: rgba(128, 128, 128, 0.726);
@@ -73,9 +69,11 @@ body{
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
+    float: right;
 }
 .products button:hover{
     background-color: rgba(217, 240, 11, 0.39);
+
     border: 2px solid rgba(46, 34, 5, 0.897);
     
 }
@@ -83,6 +81,9 @@ body{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color: rgba(11, 11, 12, 0.562);
+    border: 3px solid goldenrod;
+    transition: all 1s ease-out;
 
 }
 .selection ul{
@@ -92,7 +93,7 @@ body{
 }
 .breadcrumb li{
     display: flex;
-    margin-left:25px;
+    margin-left: 25px;
 }
 
 .breadcrumb li{
@@ -160,6 +161,7 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     z-index: 2;
     border: 1px solid white;
 }
+
 .drawerlogin h1{
     text-align: center;
     text-shadow: 4px 2px 3px rgb(238, 219, 219);
@@ -186,15 +188,14 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     float: left;
 }
 
-
-
 .flogo{
     height: auto;
-    width: 100px;
+    width: 100%;
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 20px;
+    /* margin-top: 10px;
+    margin-left: 20px; */
 }
+
 .copyright{
     text-align: center;
     margin-top: 20px;
@@ -205,7 +206,7 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     border: 1px solid rgba(73, 72, 72, 0.8);
     color: white;
     border-top: 1px solid gray;
-    padding-bottom: 20px;
+    
 }
 .footer ul{
     list-style: none;
@@ -236,22 +237,30 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     width: 400px;
 }
 .products img:hover{
-    border: 5px solid maroon;
-    transition: all 1s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.336);
+    transition: all 1s ease-in;
 }
 
 form{
-    background-color: rgba(253, 253, 253, 0.158);
+    background-color: rgba(26, 25, 24, 0.425);
     border-radius: 15px;
-    color: whitesmoke;
+    color: rgba(248, 248, 248, 0.897);
     margin-top: 15px;
     text-shadow: 1px 1px 1px rgb(10, 10, 10);
     text-align: center;
 }
+
+form:hover{
+    background-color: rgba(85, 85, 85, 0.822);
+    transition: all ease-in 0.2s;
+    
+}
 form h1{
     padding-top: 10px;
 }
-
+option{
+    color: rgb(15, 15, 15);
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
