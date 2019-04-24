@@ -3,7 +3,7 @@ const daoCommon = require("./common/daoCommon");
 
 class ProductDao{
     constructor(){
-        this.common - new daoCommon();
+        this.common = new daoCommon();
     }
 
     findAll(){

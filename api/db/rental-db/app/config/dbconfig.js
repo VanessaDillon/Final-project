@@ -1,5 +1,5 @@
 let sqlite3 = require('sqlite3').verbose();
-let DB_PATH = new sqlite3.Database('./db/rental-db/LuxuryLiftsdatabase.db');
+let DB_PATH = './db/LuxuryLiftsdatabase.db';
 
 
 const db = new sqlite3.Database(DB_PATH,
