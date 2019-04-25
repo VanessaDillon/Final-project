@@ -45,9 +45,10 @@ class UserController {
         user.password = req.body.password;
         user.firstName = req.body.firstName;
         user.lastName = req.body.lastName;
-        user.dob = req.body.dob;
+        user.dob = req.body.DoB;
         user.phone = req.body.phone;
         user.email = req.body.email;
+        user.access=req.body.access;
 
         return this.userDao.create(user)
             .then(this.common.editSuccess(res))

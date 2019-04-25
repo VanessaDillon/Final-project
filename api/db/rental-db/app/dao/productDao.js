@@ -17,7 +17,10 @@ class ProductDao{
                     row.name,
                     row.description,
                     row.price,
-                    row.img
+                    row.img,
+                    row.color,
+                    row.seats,
+                    row.year,
                 ));
             }
             return products;

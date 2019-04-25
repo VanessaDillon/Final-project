@@ -1,0 +1,192 @@
+.navbar{
+    background-color: rgba(17, 1, 22, 0.815);
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-top: 5px solid grey;
+}
+.nav-main li{
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 20px;
+    font-size: 22px;
+    padding-top: 15px;
+}
+.nav-main a{
+    color: goldenrod;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.438);
+    font-size: 24px;
+    position: relative;
+    left: 335px;
+    top: 30px;
+    
+}
+.nav-main a:hover{
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    text-shadow: 2px 2px 2px goldenrod;
+    
+}
+.login{
+    position: relative;
+    display: flex;
+    float: right;
+    
+}
+.login:hover .drawerlogin{
+    display: block;
+}
+.drawerlogin{
+    display: none;
+    position: absolute;
+    height: 300px;
+    color: white;
+    width: 350px;
+    right: 50px;
+    background: #274b57;
+background: linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+background: -webkit-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
+    box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+-webkit-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+-moz-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
+    z-index: 2;
+    border: 1px solid white;
+}
+
+.drawerlogin h1{
+    text-align: center;
+    text-shadow: 4px 2px 3px rgb(238, 219, 219);
+    color: white;
+
+}
+.drawerlogin input{
+    color: rgb(32, 53, 5);
+    font-size: 18px;
+}
+
+.drawerlogin button{
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.39);
+    border: 1px solid white;
+    color: white;
+}
+.drawerlogin a{
+    color: white;
+    text-decoration: none;
+}
+.drawerlogin .text{
+    float: left;
+}
+
+.flogo{
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    /* margin-top: 10px;
+    margin-left: 20px; */
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
+    width: 100%;
+    border: 1px solid rgba(73, 72, 72, 0.8);
+    color: white;
+    border-top: 1px solid gray;
+    
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    text-decoration: none;
+    
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 3px goldenrod;
+}
+.footer h3{
+    font-size: 28px;
+    color: rgb(10, 10, 10);
+}
+#fsocial{
+    color: white;
+    margin-right: 15px;
+    
+    
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    //CSS
+    
+  }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products Display</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <div class=" navbar">
+            <div class="row">
+                <div class="col-sm-4" id="home">
+                    <!-- <a href="#Home"><img src="images/luxurylifts.png" alt="" class="logo img-responsive"></a> -->
+                    <a href="#"><img src="images/luxurylifts.png" alt=""></a>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="nav-main" id="menu">
+                        <li><a href="#about" class="nav-links">About</a></li>
+                        <li><a href="#rent" class="nav-links">Rent</a></li>
+                        <li><a href="#membership" class="nav-links">Membership</a></li>
+                        <!-- <div class="dropdown">
+                            <li><a href="#membership" class="nav-links">Membership</a><i class="fa fa-caret-down"></i></li>
+                            <div class="dropdown-content">
+                                <a href="#">Benefits</a>
+                                <a href="#">Regular Member</a>
+                                <a href="#">Gold Member</a>
+                                <a href="#">Premium Member</a>
+                            </div>
+                        </div> -->
+                    
+                        <li><a href="#help" class="nav-links">Help</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div class="login">
+                        <p ><a href="#">Login</a>| <a href="#">Signup</a></p>
+                    
+                    
+                        <div class="container drawerlogin">
+                            <div class="row">
+                                <div class="col-sm-12 text" id="text">
+                                    <h1><strong>Login</strong></h1>
+                                    <p>Username</p>
+                                    <input type="text">
+                                    <p>Password</p>
+                                    <input type="text">
+                                    <p><a href="#">Forgot Password</a></p>
+                                    <button><a href="#">Login</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" selection">
+                <div class="b-crumb">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Start date</a></li>
+                        <li><a href="#">End date</a></li>
+                        <li>Selection</a></li>
+                        <li class="active"><a href="#">Details/ Add ons</a></li>
+                        <li><a href="#">Payment</a></li>
+                        <li><a href="#">Confirmation</a></li>
+                    </ul>
+                </div>
+                
+                <form action=""> 
+        
+                    <h1>Vehicles</h1>
+                    <p>Filter by:</p>
+                    <div class="row">
+                        <div class="col-sm-4 car-type">
+                            <label for="car-type">Car Type </label>
+                            <select name="cartype" id="cartype">
+                                <option value="">Please choose an option</option>
+                                <option value="all">All</option>
+                                <option value="twodoor">Two Door</option>
+                                <option value="suv">SUV</option>
+                                <option value="fourdoor">Four door</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4 car-color">
+                            <label for="car-color">Car Color </label>
+                            <select name="carcolor" id="carcolor">
+                                <option value="">Please choose an option</option>
+                                <option value="white">White</option>
+                                <option value="red">Red</option>
+                                <option value="black">Black</option>
+                                <option value="grey">Grey</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4 car-year">
+                            <label for="car-year">Car Year </label>
+                            <select name="caryear" id="caryear">
+                                <option value="">Please choose an option</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                            </select>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+    <div class="container product">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="http://placehold.it/400x400" class="img-responsive" alt="">
+            </div>
+            <div class="col-sm-6">
+                <h1>Vehicle name here</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur, dolorem ipsum laboriosam officiis voluptates necessitatibus reprehenderit. Facilis quibusdam porro recusandae nam, magnam quis, odio harum tenetur, inventore maiores sunt?</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="images/luxurylifts.png" alt="" class="flogo img-responsive"><!--logo-->
+            </div>
+            <div class="col-sm-3">
+                <ul>
+                    <h3>Reservations</h3>
+    
+                    <li><a href="#">Rent Now</a></li>
+                    <li><a href="#">SUVs</a></li>
+                    <li><a href="#">Convertibles</a></li>
+                    <li><a href="#">Handicap Accessible</a></li>
+                    <li><a href="#">Trucks</a></li>
+                </ul>
+            </div> 
+            <div class="col-sm-3">
+                <ul>
+                    <h3>Info</h3>
+    
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Franchise</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div> 
+            <div class="col-sm-3">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f fa-2x" id="fsocial"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x" id="fsocial"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in fa-2x" id="fsocial"></i></a>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-sm-12">
+                <p>&copy; COPYRIGHT 2019 Vanessa Dillon, Mississippi Coding Academy</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

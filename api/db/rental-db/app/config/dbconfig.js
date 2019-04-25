@@ -28,9 +28,10 @@ let init = function () {
         'password TEXT,' +
         'firstName TEXT,' +
         'lastName TEXT,' +
-        'dob DATE,' +
+        'DoB DATE,' +
         'phone TEXT,' +
-        'email TEXT' +
+        'email TEXT,' +
+        'access NUMERIC' +
         ')'
     );
     db.run('CREATE TABLE if not exists product (' +
