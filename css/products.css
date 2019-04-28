@@ -98,7 +98,7 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     border: 1px solid rgba(73, 72, 72, 0.8);
     color: white;
     border-top: 1px solid gray;
-    
+    margin-top: 50px;
 }
 .footer ul{
     list-style: none;
@@ -124,7 +124,9 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     
     
 }
-
+.product{
+    margin-top:50px;
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops

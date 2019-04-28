@@ -3,7 +3,7 @@ const daoCommon = require("./common/daoCommon");
 
 class OrderDao{
     constructor(){
-        this.common - new daoCommon();
+        this.common = new daoCommon();
     }
 
     findAll(){
@@ -14,10 +14,11 @@ class OrderDao{
             for(const row of rows){
                 orders.push( new Order(
                     row.id,
-                    row.name,
-                    row.description,
-                    row.price,
-                    row.img
+                    row.user_id,
+                    row.product_id,
+                    row.date,
+                    row.product_name,
+                    row.order_name,
                 ));
             }
             return orders;

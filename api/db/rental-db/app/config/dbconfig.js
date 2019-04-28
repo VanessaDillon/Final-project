@@ -29,31 +29,32 @@ let init = function () {
         'firstName TEXT,' +
         'lastName TEXT,' +
         'DoB DATE,' +
-        'phone TEXT,' +
         'email TEXT,' +
         'access NUMERIC' +
+        'phone NUMERIC,' +
+        'img BLOB,' +
+        'price NUMERIC,' +
         ')'
     );
     db.run('CREATE TABLE if not exists product (' +
         'id INTEGER PRIMARY KEY,' +
-        'make TEXT,' +
-        'model TEXT,' +
         'year YEAR,' +
         'color TEXT,' +
-        'doors INTEGER,' +
         'seats INTEGER,' +
-        'cargo INTEGER,' +
-        'power INTEGER,' +
-        'miles INTEGER,' +
-        'price INTEGER' +
+        'price INTEGER,' +
+        'description TEXT,' +
+        'name TEXT,' +
+        'img BLOB' +
         ')'
     );
     
-    db.run('CREATE TABLE if not exists `orders` (' +
+    db.run('CREATE TABLE if not exists orders (' +
         'id INTEGER PRIMARY KEY,' + 
         'user_id INTEGER,' +
         'product_id INTEGER,' +
         'date DATE,' +
+        'product_name TEXT,' +
+        'order_name TEXT,' +
         'FOREIGN KEY(`product_id`) REFERENCES `product`(`id`),' +
         'FOREIGN KEY(`user_id`) REFERENCES `user`(`id`)' +
         ')'

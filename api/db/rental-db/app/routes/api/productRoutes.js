@@ -15,7 +15,7 @@ router.get('/:id', function(req, res) {
     productController.findOne(req, res);
 });
 
-router.get('/make/:make', function(req, res) {
+router.get('/name/:name', function(req, res) {
     productController.findAllByName(req, res);
 });
 
