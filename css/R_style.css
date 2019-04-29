@@ -1,46 +1,27 @@
-/* video #bgVideo {
-    position: absolute; /*Play the video in full screen mode*/
-    /* overflow: hidden;
-    min-width: 100%;
-  min-height: 100%;
-  
-bottom:0;
-left:0;
-    z-index: -1; /*Put the video behind all other elements */
-  /* } */ 
-  
 
   
-@media only screen and (max-width: 768px) {
-    video {
-        display:none;
-    }
-    body{
-        background-image: url(images/driving.jpg);
-    }
-}
+
 .navbar img{
     height: 50%;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
-    z-index: 20;
+    
 }
 #bgVideo{
     position: fixed;
   right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  top: 0;
+  
   width: auto; 
   height: auto;
-  z-index: -100;
+  z-index: -1;
 }
 
 
 body{
-    background-color: whitesmoke;
+    background-color: rgb(14, 13, 13);
 
 }
 
@@ -128,7 +109,7 @@ background-color: rgba(11, 11, 12, 0.979);
     text-decoration: none;
     display: inline-flex;
     flex-direction: row;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 22px;
     padding-top: 15px;
 }
@@ -137,7 +118,7 @@ background-color: rgba(11, 11, 12, 0.979);
     text-shadow: 1px 1px 1px black;
     font-size: 24px;
     position: relative;
-    left: 335px;
+    left: 330px;
     top: 30px;
     
 }
@@ -200,50 +181,7 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     float: left;
 }
 
-.flogo{
-    height: auto;
-    width: 100%;
-    display: inline-block;
-    /* margin-top: 10px;
-    margin-left: 20px; */
-}
 
-.copyright{
-    text-align: center;
-    margin-top: 20px;
-}
-.footer{
-    background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
-    width: 100%;
-    border: 1px solid rgba(73, 72, 72, 0.8);
-    color: white;
-    border-top: 1px solid gray;
-    
-}
-.footer ul{
-    list-style: none;
-}
-.footer li{
-    text-decoration: none;
-    
-}
-.footer a{
-    color: white;
-}
-.footer a:hover{
-    text-decoration: none;
-    text-shadow: 2px 2px 3px goldenrod;
-}
-.footer h3{
-    font-size: 28px;
-    color: rgb(10, 10, 10);
-}
-#fsocial{
-    color: white;
-    margin-right: 15px;
-    
-    
-} 
 .products img{
     height: 200px;
     width: 400px;
@@ -277,6 +215,50 @@ form h1{
 }
 option{
     color: rgb(15, 15, 15);
+}
+.footer img{
+    height: 100px;
+    width: 50%;
+    display: inline-flex;
+    /* margin-top: 10px;
+    margin-left: 20px; */
+}
+
+.copyright{
+    text-align: center;
+    
+}
+
+.footer{
+    background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
+    width: 100vw;
+    border-top: 1px solid rgba(73, 72, 72, 0.8);
+    color: white;
+    border-top: 1px solid gray;
+
+    
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 3px goldenrod;
+}
+.footer h3{
+    font-size: 28px;
+    color: rgb(10, 10, 10);
+}
+#fsocial{
+    color: white;
+    
+    
+    
 }
 /* 
   ##Device = Desktops

@@ -9,6 +9,7 @@ class OrderController {
         this.orderDao = new OrderDao();
         this.common = new ControllerCommon();
     }
+
     findAll(res) {
         this.orderDao.findAll()
             .then(this.common.findSuccess(res))
@@ -22,9 +23,9 @@ class OrderController {
             .catch(this.common.findError(res))
     }
     findByName(req, res) {
-        let user_id = req.params.user_id;
+        let order_id = req.params.order_id;
 
-        this.orderDao.findByName(user_id)
+        this.orderDao.findByName(order_id)
             .then(this.common.findSuccess(res))
             .catch(this.common.findError(res))
     }

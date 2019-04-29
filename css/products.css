@@ -27,6 +27,8 @@
     text-shadow: 2px 2px 2px goldenrod;
     
 }
+
+
 .login{
     position: relative;
     display: flex;
@@ -80,35 +82,39 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     float: left;
 }
 
-.flogo{
-    height: auto;
-    width: 100%;
-    display: inline-block;
+.ads{
+    margin: 40px auto 40px auto;
+}
+
+.footer img{
+    height: 100px;
+    width: 50%;
+    display: inline-flex;
     /* margin-top: 10px;
     margin-left: 20px; */
 }
 
 .copyright{
     text-align: center;
-    margin-top: 20px;
+    
 }
+
 .footer{
     background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
     width: 100%;
-    border: 1px solid rgba(73, 72, 72, 0.8);
+    border-top: 1px solid rgba(73, 72, 72, 0.8);
     color: white;
     border-top: 1px solid gray;
-    margin-top: 50px;
+
+    
 }
 .footer ul{
     list-style: none;
 }
-.footer li{
-    text-decoration: none;
-    
-}
+
 .footer a{
     color: white;
+    text-decoration: none;
 }
 .footer a:hover{
     text-decoration: none;
@@ -120,12 +126,12 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
 }
 #fsocial{
     color: white;
-    margin-right: 15px;
+    
     
     
 }
 .product{
-    margin-top:50px;
+    margin-top:25px;
 }
 /* 
   ##Device = Desktops

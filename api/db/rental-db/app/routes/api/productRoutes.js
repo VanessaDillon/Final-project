@@ -9,6 +9,7 @@ const productController = new ProductController();
 // http://localhost:3000/api/product'/'
 router.get('/', function(req, res) {
     productController.findAll(res);
+    
 });
 
 router.get('/:id', function(req, res) {

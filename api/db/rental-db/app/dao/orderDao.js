@@ -10,9 +10,9 @@ class OrderDao{
         let sqlRequest = "SELECT * FROM orders";
 
         return this.common.findAll(sqlRequest).then(rows => {
-            let orders = [];
+            let order = [];
             for(const row of rows){
-                orders.push( new Order(
+                order.push( new Order(
                     row.id,
                     row.user_id,
                     row.product_id,
@@ -21,7 +21,7 @@ class OrderDao{
                     row.order_name,
                 ));
             }
-            return orders;
+            return order;
         });
     }
 }

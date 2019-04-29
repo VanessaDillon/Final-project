@@ -26,6 +26,8 @@ class ProductDao{
             return products;
         });
     }
+
+    
 }
 
 module.exports = ProductDao;
