@@ -216,35 +216,34 @@ form h1{
 option{
     color: rgb(15, 15, 15);
 }
-.footer img{
-    height: 100px;
-    width: 50%;
-    display: inline-flex;
-    /* margin-top: 10px;
-    margin-left: 20px; */
+.flogo{
+    height: auto;
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
 }
-
 .copyright{
     text-align: center;
-    
+    margin-top: 20px;
 }
-
 .footer{
-    background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
-    width: 100vw;
-    border-top: 1px solid rgba(73, 72, 72, 0.8);
-    color: white;
+    background-color: rgb(196, 192, 192);
+    width: 100%;
+    border: 1px solid rgba(73, 72, 72, 0.8);
+    color: darkslategray;
     border-top: 1px solid gray;
-
-    
+    padding-bottom: 20px;
 }
 .footer ul{
     list-style: none;
 }
-
-.footer a{
-    color: white;
+.footer li{
     text-decoration: none;
+    
+}
+.footer a{
+    color: darkslategray;
 }
 .footer a:hover{
     text-decoration: none;
@@ -256,7 +255,7 @@ option{
 }
 #fsocial{
     color: white;
-    
+    margin-right: 15px;
     
     
 }
