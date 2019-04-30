@@ -81,11 +81,25 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
 .drawerlogin .text{
     float: left;
 }
-
+.product img{
+    border-top: 2px solid rgb(41, 2, 41);
+}
+.product ul{
+    padding-top: 45px;
+}
+.icon-award{
+    color: rgba(236, 175, 19, 0.925);
+    
+}
+.icon-award i{
+    margin-left: 10px;
+}
 .ads{
     margin: 40px auto 40px auto;
 }
-
+.ads img{
+    border: 2px solid rgb(41, 2, 41);
+}
 .footer img{
     height: 100px;
     width: 50%;
@@ -105,7 +119,7 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     border-top: 1px solid rgba(73, 72, 72, 0.8);
     color: white;
     border-top: 1px solid gray;
-
+    margin-top: 125px;
     
 }
 .footer ul{
