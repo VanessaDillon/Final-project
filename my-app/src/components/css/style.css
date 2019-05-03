@@ -400,12 +400,6 @@ form{
         position: relative;
         margin-left: 25px;
     }
-    .drawerlogin{
-        position: absolute;
-        right: 0px;
-        height: 300px;
-        width: 300px;
-        top: 25px;
-    }
+    
 
   }

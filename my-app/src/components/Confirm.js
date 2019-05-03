@@ -1,6 +1,6 @@
 import React from "react"
 
-
+import "./css/confirm.css"
 function Confirm(){
     return(
         <React.Fragment>

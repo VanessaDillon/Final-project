@@ -1,0 +1,43 @@
+.flogo{
+    height: auto;
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(196, 192, 192);
+    width: 100%;
+    border: 1px solid rgba(73, 72, 72, 0.8);
+    color: darkslategray;
+    border-top: 1px solid gray;
+    padding-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    text-decoration: none;
+    
+}
+.footer a{
+    color: darkslategray;
+}
+.footer a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 3px goldenrod;
+}
+.footer h3{
+    font-size: 28px;
+    color: rgb(10, 10, 10);
+}
+#fsocial{
+    color: white;
+    margin-right: 15px;
+    
+    
+}

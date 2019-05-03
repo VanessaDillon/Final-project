@@ -1,6 +1,6 @@
 import React from "react"
 
-
+import "./css/memship.css"
 function Membership(){
     return(
         <div className="container profile">

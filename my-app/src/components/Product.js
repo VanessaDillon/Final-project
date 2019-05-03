@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./css/R_style.css"
 
 function Product(){
     return(
@@ -14,8 +14,8 @@ function Product(){
         <div className=" selection">
             <div className="b-crumb">
                 <ul className="breadcrumb">
-                    <li><a href="#">Start date</a></li>
-                    <li><a href="#">End date</a></li>
+                    <li><a href="/">Start date</a></li>
+                    <li><a href="/">End date</a></li>
                     <li className="active">Selection</li>
                     <li><a href="#">Details/ Add ons</a></li>
                     <li><a href="#">Payment</a></li>

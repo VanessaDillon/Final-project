@@ -1,5 +1,5 @@
 import React from "react"
-
+import './css/login.css'
 
 function Login(){
     return(
@@ -12,7 +12,7 @@ function Login(){
                     <p>Password</p>
                     <input type="text" required />
                     <p><a href="#">Forgot Password</a></p>
-                    <button><a href="#">Login</a></button>
+                    <button><a href="/">Login</a></button>
                 </div>
             </div>
         </div>

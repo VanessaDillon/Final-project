@@ -1,5 +1,5 @@
-import React from "react"
-
+import React from "react";
+import "./css/A_style.css"
 
 function About(){
     return(

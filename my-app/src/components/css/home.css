@@ -1,0 +1,275 @@
+body{
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: rgba(245, 245, 236, 0.822);
+}
+
+.slick-slider{
+    border: 3px solid white;
+    position: relative;
+    width: 100%;
+}
+.slick-slider img{
+    height: 600px;
+    width: 1000px;
+}
+.banner .brandlogo{
+    position: absolute;
+    bottom: 75px;
+    left: 75px;
+    
+}
+.banner .brandlogo img:hover{
+    box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
+-webkit-box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
+-moz-box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.brandlogo img{
+    height: 200px;
+    width: auto;
+}
+
+
+
+
+.motto{
+    text-shadow: 2px 2px 2px white;
+    border-bottom: 1px solid black;
+    border-width: 5px;
+    color: rgb(81, 92, 238);
+    
+
+}
+.motto h1{
+    font-size: 42px;
+}
+.motto i{
+    color: darkslategray;
+}
+.submit{
+    margin-top: 10px
+}
+.award{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-top: 4px solid goldenrod;
+    background-color: rgba(255, 230, 8, 0.253);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 3px 153px 166px rgba(255,242,242,0.61);
+-webkit-box-shadow: 2px 3px 153px 166px rgb(255, 255, 255);
+-moz-box-shadow: 2px 3px 153px 166px rgba(255,242,242,0.61);
+}
+form{
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-top: 0px;
+}
+.formdata{
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    
+}
+.formdata p{
+    color: white;
+    display: inline-flex;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#medal{
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+}
+.award-panel p{
+    text-align: center;
+}
+.ad{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.ad:hover{
+    border: 10px solid rgba(143, 142, 143, 0.904);
+    transition: all 1s ease-in-out;
+
+}
+#rental{
+    position: relative;
+}
+.box{
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    background-color: rgba(10, 10, 2, 0.897);
+    color:white;
+    border-radius: 5%;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.70);
+-webkit-box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.72);
+-moz-box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.76);
+}
+.box button{
+    background-color: black;
+}
+.box button:hover{
+    background-color: rgba(158, 158, 17, 0.918);
+}
+.panels h1{
+    text-align: center;
+    color: goldenrod;
+    font-size: 24px;
+    text-shadow: 3px 2px 1px blanchedalmond;
+}
+.panels{
+    width: 100%;
+   margin-bottom: 50px;
+   margin-top:50px;
+   padding-top: 15px;
+   
+}
+.panels img{
+    height: auto;
+    width: 450px;
+    border: 1px solid black;
+}
+.features{
+    box-shadow: 2px 3px 153px 166px rgba(2, 2, 2, 0.801);
+-webkit-box-shadow: 2px 3px 153px 166px rgba(255, 255, 255, 0.74);
+-moz-box-shadow: 2px 3px 153px 166px rgba(255,242,242,0.61);
+    width: 75%;
+    border-top: 3px solid goldenrod;
+    padding-top: 20px;
+}
+.features:hover{
+    background-color: rgba(48, 43, 43, 0.959);
+    color: rgb(226, 224, 224);
+    transition: all;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.features p:hover{
+    color: white;
+    text-shadow: 4px 2px 2px black;
+}
+/* Responsive */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+    
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .box{
+      position: absolute;
+      left: 80px;
+      bottom: 55px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .adbox{
+      margin-top: 65px;
+      margin-bottom: 50px;
+  }
+  .box button{
+      position: absolute;
+      right: 50px;
+      bottom: 5px;
+      background-color: goldenrod;
+  }
+  .formdata p{
+      display: flex;
+      flex-direction: column;
+  }
+  .motto h1{
+      font-size: 35px;
+      text-align: center;
+  }
+  .slick-slider img{
+      height: 300px;
+      width: 300px;
+
+  }
+  .brandlogo img{
+      height: 75px;
+      width: 170px;
+      position: relative;
+      top: 115px;
+  }
+  .nav-main li{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .mlogo{
+      position: relative;
+      margin-left: 25px;
+  }
+  
+
+}
