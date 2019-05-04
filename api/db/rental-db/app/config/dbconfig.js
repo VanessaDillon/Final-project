@@ -33,7 +33,7 @@ let init = function () {
         'access NUMERIC' +
         'phone NUMERIC,' +
         'img BLOB,' +
-        'price NUMERIC,' +
+        'price NUMERIC' +
         ')'
     );
     db.run('CREATE TABLE if not exists product (' +

@@ -1,14 +1,14 @@
 body{
     background: url("../images/sunset.jpg") no-repeat center center fixed;
-    margin:0;
+    margin: 0;
     padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 .login{
+    
     border: 3px solid rgba(247, 159, 60, 0.925);
     border-radius: 75px;
     background-color: rgba(5, 5, 5, 0.856);
