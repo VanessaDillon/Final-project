@@ -1,23 +1,22 @@
-main{
+ main{
     font-family: 'ZCOOL XiaoWei', serif;
     background-color: rgba(245, 245, 236, 0.822);
 }
 
-.slick-slider{
+.hero{
     border: 3px solid white;
-    position: relative;
+    
+}
+.hero img{
+    height: 100%;
     width: 100%;
 }
-.slick-slider img{
-    height: 600px;
-    width: 1000px;
-}
-.banner .brandlogo{
+/* .banner .brandlogo{
     position: absolute;
     bottom: 75px;
     left: 75px;
     
-}
+} */
 .banner .brandlogo img:hover{
     box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
 -webkit-box-shadow: 10px 10px 16px 6px rgba(243,233,233,0.75);
@@ -26,21 +25,19 @@ main{
     transition-duration: 0.5s;
     transition-property: all;
 }
-.brandlogo img{
-    height: 200px;
-    width: auto;
+
+
+.content{
+    border-top: 3px solid black;
 }
-
-
-
-
 .motto{
     text-shadow: 2px 2px 2px white;
-    border-bottom: 1px solid black;
+    
     border-width: 5px;
     color: rgb(81, 92, 238);
-    
-
+    background-color: rgba(255, 255, 255, 0.644);
+    position: absolute;
+    bottom: 50px;
 }
 .motto h1{
     font-size: 42px;
@@ -71,7 +68,7 @@ form{
 }
 .formdata{
     padding-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: rgba(33, 6, 58, 0.719);
     border-bottom: 1px solid white;
     width: 100%;
     text-align: center;
@@ -99,12 +96,13 @@ form{
     margin-bottom: 50px;
     
     
+    
 }
-.ad:hover{
-    border: 10px solid rgba(143, 142, 143, 0.904);
+/* .ad:hover{
+    border: 1px solid rgba(143, 142, 143, 0.904);
     transition: all 1s ease-in-out;
 
-}
+} */
 #rental{
     position: relative;
 }
@@ -225,7 +223,7 @@ form{
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .box{
+  /* .box{
       position: absolute;
       left: 80px;
       bottom: 55px;
@@ -270,6 +268,6 @@ form{
       position: relative;
       margin-left: 25px;
   }
-  
+   */
 
 }

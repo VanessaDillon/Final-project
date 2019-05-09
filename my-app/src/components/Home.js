@@ -5,9 +5,10 @@ import './css/home.css'
 function Home(){
     return(
         <main>
-            <form action="#">
-                <div className="container formdata">
-                    <div className="row">
+            <div className="container formdata">
+                <div className="row">
+                    <form action="/product">
+            
                         <div className="col-sm-4">
                             <p>Start date:</p><input type="date"name="start" />
                         </div>
@@ -17,9 +18,10 @@ function Home(){
                         <div className="col-sm-4 submit">
                             <i className="fas fa-search"></i><input type="submit" />
                         </div>
-                    </div>
+                    </form>    
                 </div>
-            </form>
+            </div>
+            
 
             <div className="container banner">
                 <div className="row">

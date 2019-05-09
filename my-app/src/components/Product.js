@@ -33,7 +33,7 @@ class Product extends Component{
                 Sorry, your browser does not support embedded videos.
             </video> 
             
-            <div className=" selection">
+            <div className="row selection">
                 <div className="b-crumb">
                     <ul className="breadcrumb">
                         <li><a href="/">Start date</a></li>
@@ -44,9 +44,8 @@ class Product extends Component{
                         <li><a href="#">Confirmation</a></li>
                     </ul>
                 </div>
-                
-                <form action=""> 
-        
+                <div className="container"><form action=""> 
+                    
                     <h1>Vehicles</h1>
                     <p>Filter by:</p>
                     <div className="row">
@@ -80,15 +79,16 @@ class Product extends Component{
                             </select>
                         </div>
                     </div>
-                </form> 
+                </form></div>
+                 
             </div>
                 <div className="container car">
                     <div className="row">
                         <div className="col-sm-4 product">
                             <img src="images/lamborghini.png" className="img-responsive " alt="" />
-                            <h2>Lamborghini</h2>
+                            <h2>{this.props.name}</h2>
                             <p>Loremi reprehenderit tenetur excepturi. Delectus non soluta perferendis repellendus? Aut provident commodi alias doloribus.</p>
-                            <button>Select Car</button>
+                             <a href="/product/:id"><button >Select Car</button></a>
                             
                         </div>
                         <div className="col-sm-4 product">

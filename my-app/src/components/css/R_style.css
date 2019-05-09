@@ -1,6 +1,7 @@
-
-  
-
+/* 
+body{
+    background-color: rgb(14, 13, 13);
+}
 
 #bgVideo{
     position: fixed;
@@ -10,13 +11,11 @@
   width: auto; 
   height: auto;
   z-index: -1;
-}
-
-
-body{
-    background-color: rgb(14, 13, 13);
 
 }
+
+
+
 
 .navbar{
     background-color: rgba(17, 17, 17, 0.979);
@@ -135,7 +134,7 @@ form h1{
 }
 option{
     color: rgb(15, 15, 15);
-}
+} */
 
 /* 
   ##Device = Desktops

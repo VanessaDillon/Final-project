@@ -1,5 +1,5 @@
 
-body{
+/* body{
     font-family: 'ZCOOL XiaoWei', serif;
     background-color: rgba(245, 245, 236, 0.822);
 }
@@ -289,7 +289,7 @@ form{
 .brandlogo img{
     height: 200px;
     width: auto;
-}
+} */
 
 
 
@@ -355,7 +355,7 @@ form{
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    .box{
+    /* .box{
         position: absolute;
         left: 80px;
         bottom: 55px;
@@ -399,7 +399,7 @@ form{
     .mlogo{
         position: relative;
         margin-left: 25px;
-    }
+    } */
     
 
   }

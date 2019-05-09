@@ -1,6 +1,7 @@
 import React from "react"
 import './css/login.css'
 
+
 function Login(){
     return(
         <body>
@@ -13,12 +14,11 @@ function Login(){
                         <p>Password</p>
                         <input type="text" required />
                         <p><a href="#">Forgot Password</a></p>
-                        <button><a href="/">Login</a></button>
+                        <a href="/"><button>Login</button></a>
                     </div>
                 </div>
             </div>  
         </body>
-        
     )
 }
 export default Login

@@ -1,10 +1,10 @@
 import React from "react"
-
+import "./css/home.css"
 function Content() {
     return(
         <main>
         <form action="#">
-            <div className="container formdata">
+            <div className=" formdata">
                 <div className="row">
                     <div className="col-sm-4">
                         <p>Start date:</p><input type="date"name="start" />
@@ -19,18 +19,19 @@ function Content() {
             </div>
         </form>
 
-        <div className="container banner">
+        <div className=" banner">
             <div className="row">
                 <div className="col-sm-12">
-                    <div className="slick-slider">
+                    <div className="hero">
+
+
+
+
+
                         <div><img src="images/fancycar.jpg" alt="" className="img-responsive slide"  /></div>
-                        <div><img src="images/fancycar2.jpg" alt="" className="img-responsive slide" /></div>
-                        <div><img src="images/fancycar3.jpg" alt="" className="img-responsive slide" /></div>
-                        <div><img src="images/fancycar4.jpg" alt="" className="img-responsive slide" /></div>
+                        
                     </div>
-                    <div className="col-sm-12 brandlogo">
-                        <div><img src="images/luxurylifts.png" className="img-responsive" alt="" /></div>
-                    </div>
+                    
                 </div>
                 
             </div>
