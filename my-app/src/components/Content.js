@@ -23,11 +23,6 @@ function Content() {
             <div className="row">
                 <div className="col-sm-12">
                     <div className="hero">
-
-
-
-
-
                         <div><img src="images/fancycar.jpg" alt="" className="img-responsive slide"  /></div>
                         
                     </div>
