@@ -4,7 +4,7 @@ import'./css/footer.css'
 
 function Footer() {
     return(
-        <footer className="container footer">
+        <footer className=" footer">
         <div className="row">
             <div className="col-sm-3">
                 <img src="images/luxurylifts.png" alt="" className="flogo img-responsive" />

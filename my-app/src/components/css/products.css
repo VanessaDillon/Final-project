@@ -1,7 +1,5 @@
-/* 
-body{
-    background-color: rgb(14, 13, 13);
-}
+
+
 
 #bgVideo{
     position: fixed;
@@ -14,42 +12,31 @@ body{
 
 }
 
-
-
-
-.navbar{
-    background-color: rgba(17, 17, 17, 0.979);
-    width: 100%;
-    border-bottom: 3px solid black;
-    border-top: 5px solid grey;
-}
 .car{
-    background-color: rgba(218, 165, 32, 0);
-    margin: 50px 100px 100px 50px;
-    
+    background-color: rgba(250, 249, 246, 0.185);
+   border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.products .row{
-    padding-top: 30px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
 
+.car .row{
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 .product{
     color: white;
-    margin-right: 25px;
+    padding-top: 20px;
     padding-bottom: 35px;
+    
 }
-.products button{
+.product button{
     background-color: rgba(128, 128, 128, 0.726);
     border-radius: 10px;
     border: 1px solid white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    float: right;
+    padding: 10px 10px 10px 10px;
+    
 }
 .products button:hover{
     background-color: rgba(167, 11, 240, 0.39);
@@ -63,7 +50,7 @@ body{
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 background-color: rgba(11, 11, 12, 0.979);
     border: 3px solid goldenrod;
-    transition: all 1s ease-out;
+    transition: all 1s ease-in;
 
 }
 .selection ul{
@@ -101,11 +88,11 @@ background-color: rgba(11, 11, 12, 0.979);
 
 
 
-.products img{
-    height: 200px;
-    width: 400px;
+.product img{
+    height: auto;
+    width: 300px;
 }
-.products img:hover{
+.product img:hover{
     background-color: rgba(0, 0, 0, 0.336);
     transition: all 1s ease-in;
 }
@@ -118,23 +105,27 @@ form{
     text-shadow: 1px 1px 1px rgb(10, 10, 10);
     text-align: center;
     border: 1px solid goldenrod;
+    padding-bottom: 15px;
 }
 
 form:hover{
-    background-color: rgba(120, 1, 156, 0.877);
-    transition: all ease-in 0.2s;
+    background-color: rgba(79, 2, 102, 0.877);
+    transition: all ease-in-out 0.2s;
     
 }
 form p{
     float: left;
-    margin-left: 25px;
+    margin-left: 15px;
+    padding-top: 15px;
 }
-form h1{
-    padding-top: 10px;
-}
+
 option{
     color: rgb(15, 15, 15);
-} */
+}
+
+
+
+
 
 /* 
   ##Device = Desktops

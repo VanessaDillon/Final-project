@@ -19,10 +19,9 @@ function About(){
                     <i className="far fa-user fa-5x profile-image"></i>
 
                         <div className="row">
-                            <div className="col-sm-6">
+                            <div className="col-sm-12">
                                 <h1>Larry Weems</h1>
-                            </div>
-                            <div className="col-sm-6">
+                            
                                 <p>As Chief Executive Officer I .... Lorem ipsum dolor sit amet consectetur adip.</p>
                             </div>
                         </div>
@@ -32,10 +31,9 @@ function About(){
                     <i className="far fa-user fa-5x profile-image"></i>
 
                         <div className="row">
-                            <div className="col-sm-6">
+                            <div className="col-sm-12">
                                 <h1>Vanessa Dillon</h1>
-                            </div>
-                            <div className="col-sm-6">
+                            
                                 <p>As Chief Design Officer I .... Lorem ipsum dolor sit amet consecte</p>
                             </div>
                         </div>
@@ -45,10 +43,9 @@ function About(){
                     <i className="far fa-user fa-5x profile-image"></i>
 
                         <div className="row">
-                            <div className="col-sm-6">
+                            <div className="col-sm-12">
                                 <h1>Rodney Smith</h1>
-                            </div>
-                            <div className="col-sm-6">
+                            
                                 <p>As Chief Meta-data Officer I .... Lorem aliquidates excema dolorum.</p>
                             </div>
                         </div>
@@ -57,10 +54,9 @@ function About(){
                     <i className="far fa-user fa-5x profile-image"></i>
 
                         <div className="row">
-                            <div className="col-sm-6">
+                            <div className="col-sm-12">
                                 <h1>Travis Cooley</h1>
-                            </div>
-                            <div className="col-sm-6">
+                            
                                 <p>As Chief Operating Officer I .... Lorem ipsum dolor sit amet consectetur adipis</p>
                             </div>
                         </div>

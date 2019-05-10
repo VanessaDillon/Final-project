@@ -24,7 +24,11 @@ function Content() {
                 <div className="col-sm-12">
                     <div className="hero">
                         <div><img src="images/fancycar.jpg" alt="" className="img-responsive slide"  /></div>
-                        
+                        <div className="row">
+                            <div className="col-sm-12 herologo">
+                                <img src="images/luxurylifts.png" alt="" className="flogo img-responsive" />
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
@@ -102,16 +106,19 @@ function Content() {
                 </div>
             </div>
         </div>
-        <div className="container panels">
+        <div className=" panels">
             <div className="row">
                 <div className="col-sm-4 adbox">
                     <img src="images/rental.jpg" className="img-responsive" alt="" id="rental" />
-                    <div className="box"><p>lorem lorem lorem</p>
-                    <button>Click me</button></div> 
+
+                    <div className="box">
+                        <p>lorem lorem lorem</p>
+                        <button>Click me</button>
+                    </div> 
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-4 midbox">
                     <h1>Rent with us!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, officiis sint, temporibus odio consequuntur maiores suscipit laborum quidem, laboriosam laudantium ipsam! Blanditiis deleniti alias commodi eum, officia molestias ratione nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, laborum. Animi harum at, porro odio aliquam ad vitae voluptates praesem</p>
+                    <p>Lorem modi eum, officia molestias ratione nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, laborum. Animi harum at, porro odio aliquam ad vitae voluptates praesem</p>
                     <div className="lists">
                         <div className="row">
                             <div className="col-sm-12">
@@ -127,8 +134,10 @@ function Content() {
                 </div>
                 <div className="col-sm-4 adbox">
                     <img src="images/rental2.jpg" className="img-responsive" alt="" id="rental" />
-                    <div className="box"><p>lorem lorem lorem</p>
-                    <button>Click me</button></div>
+                    <div className="box">
+                        <p>lorem lorem lorem</p>
+                        <button>Click me</button>
+                    </div>
                 </div>
             </div>
         </div>

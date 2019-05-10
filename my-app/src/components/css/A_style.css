@@ -1,104 +1,22 @@
-/* body{
+body{
     font-family: 'ZCOOL XiaoWei', serif;
-    background-color: #111010;
+
 
 }
-.logo{
-    height: auto;
-    width: 100px;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-#Logo{
-    z-index:1;
-    overflow: hidden;
-}
-.navbar{
-    background-color: rgba(197, 194, 194, 0.582);
-    width: 100%;
-    border-bottom: 1px solid black;
-    border-top: 5px solid grey;
-    
-}
-.nav-main li{
-    text-decoration: none;
-    display: inline-flex;
-    flex-direction: row;
-    margin-right: 30px;
-    font-size: 22px;
-    padding-top: 15px;
-}
-.nav-main a{
-    color: goldenrod;
-    text-shadow: 1px 1px 1px black;
-    font-size: 20px;
-}
-.nav-main a:hover{
-    text-decoration: none;
-    color: black;
-    text-shadow: 2px 2px 2px white;
-    
-}
-.login{
-    position: relative;
-    display: flex;
-    float: right;
-    
-}
-.login:hover .drawerlogin{
-    display: block;
-}
-.drawerlogin{
-    display: none;
-    position: absolute;
-    height: 300px;
-    color: white;
-    width: 350px;
-    right: 50px;
-    background: #274b57;
-background: linear-gradient(90deg,#274b57 0%, #0a330a 80%);
-background: -webkit-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
-background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
-    box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
--webkit-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
--moz-box-shadow: 18px 20px 79px -2px rgba(0,0,0,0.58);
-    z-index: 2;
-    border: 1px solid white;
-}
-.drawerlogin h1{
-    text-align: center;
-    text-shadow: 4px 2px 3px rgb(238, 219, 219);
-    color: white;
 
-}
-.drawerlogin input{
-    color: rgb(32, 53, 5);
-    font-size: 18px;
-}
 
-.drawerlogin button{
-    margin-right: 10px;
-    margin-top: 10px;
-    background-color: black;
-    border: 1px solid white;
-    color: white;
-}
-.drawerlogin a{
-    color: white;
-    text-decoration: none;
-}
-.drawerlogin .text{
-    float: left;
-}
+
 
 .profile-image{
     position: relative;
     left: 90px;
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: transparent;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     border: 1px solid white;
+    border-radius: 5px;
+    color: red;
+    border: 2px solid salmon;
 }
 
 .about{
@@ -108,15 +26,17 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
     border-bottom: 2px solid black;
     border-left: 3px solid rgb(102, 101, 101);
     border-right: 3px solid rgb(102, 101, 101);
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     margin-top: 35px;
     /* padding-top: 155px;
     margin-top: 50px;
     margin-bottom: 25px; */
-    /* color: white;
+    color: white;
     background: url("../images/luxury.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+
+
 
     
 }
@@ -131,14 +51,15 @@ background: -moz-linear-gradient(90deg,#274b57 0%, #0a330a 80%);
 }
 .about p:hover{
     color:white;
-    font-size: 14px;
-    text-shadow: 2px 2px 2px rgba(241, 240, 240, 0.87);
-    background-color: rgba(240, 17, 17, 0.89);
+
+    text-shadow: 1px 1px 1px rgba(241, 240, 240, 0.87);
+    background-color: maroon;
     transition: all 1s ease-in-out;
+    border: 2px solid grey;
 }
 .title{
-    font-size: 48px;
-    color: white;
+    font-size: 54px;
+    color: maroon;
     font-weight: bolder;
     text-shadow: 1px 1px 1px grey;
     text-align: center;
@@ -246,38 +167,7 @@ box-shadow: -34px -46px 15px -3px rgba(147,102,217,0.64);
     transition: all 1s ease-in;
     text-shadow: 3px 3px 3px rgba(112, 14, 112, 0.74);
 }
-.footer{
-    background: linear-gradient(180deg, #cecccce0 0%, #131113   100%);
-    width: 100%;
-    border: 1px solid rgba(73, 72, 72, 0.8);
-    color: white;
-    border-top: 1px solid gray;
-    padding-bottom: 20px;
-}
-.footer ul{
-    list-style: none;
-}
-.footer li{
-    text-decoration: none;
-    
-}
-.footer a{
-    color: white;
-}
-.footer a:hover{
-    text-decoration: none;
-    text-shadow: 2px 2px 3px goldenrod;
-}
-.footer h3{
-    font-size: 28px;
-    color: rgb(10, 10, 10);
-}
-#fsocial{
-    color: white;
-    margin-right: 15px;
-    
-    
-} */ 
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops

@@ -114,15 +114,23 @@ form{
     color:white;
     border-radius: 5%;
     padding: 20px 20px 20px 20px;
-    box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.70);
--webkit-box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.72);
--moz-box-shadow: 3px -4px 108px 56px rgba(0,0,0,0.76);
+    
 }
 .box button{
-    background-color: black;
+    background-color: rgb(245, 241, 241);
+    border: 2px solid rgb(63, 3, 63);
+    position: absolute;
+    left: 40px;
+    bottom: 5px;
 }
 .box button:hover{
     background-color: rgba(158, 158, 17, 0.918);
+}
+.herologo{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    bottom: 55px;
 }
 .panels h1{
     text-align: center;
@@ -131,16 +139,24 @@ form{
     text-shadow: 3px 2px 1px blanchedalmond;
 }
 .panels{
-    width: 100%;
    margin-bottom: 50px;
    margin-top:50px;
    padding-top: 15px;
+   display: inline-flex;
+   flex-direction: row;
    
+   
+}
+.midbox{
+    border: 1px solid rgb(58, 58, 58);
 }
 .panels img{
     height: auto;
     width: 450px;
     border: 1px solid black;
+    box-shadow: 3px -4px 58px 75px rgba(124, 98, 12, 0.7);
+-webkit-box-shadow: 3px -4px 108px 56px rgba(0, 0, 0, 0.514);
+-moz-box-shadow: 3px -4px 58px 56px rgba(72, 10, 88, 0.863);
 }
 .features{
     box-shadow: 2px 3px 153px 166px rgba(2, 2, 2, 0.801);
@@ -223,7 +239,7 @@ form{
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  /* .box{
+  .box{
       position: absolute;
       left: 80px;
       bottom: 55px;
@@ -248,11 +264,7 @@ form{
       font-size: 35px;
       text-align: center;
   }
-  .slick-slider img{
-      height: 300px;
-      width: 300px;
 
-  }
   .brandlogo img{
       height: 75px;
       width: 170px;
@@ -268,6 +280,6 @@ form{
       position: relative;
       margin-left: 25px;
   }
-   */
+  
 
 }

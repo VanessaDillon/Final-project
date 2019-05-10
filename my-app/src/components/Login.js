@@ -4,8 +4,9 @@ import './css/login.css'
 
 function Login(){
     return(
-        <body>
-            <div className="container login">
+        <body className="loginbody">
+
+            <div className="container mainlogin">
                 <div className="row">
                     <div className="col-sm-12">
                         <h1><strong>Login</strong></h1>
@@ -14,10 +15,11 @@ function Login(){
                         <p>Password</p>
                         <input type="text" required />
                         <p><a href="#">Forgot Password</a></p>
-                        <a href="/"><button>Login</button></a>
+                        <a href="/membership"><button>Login</button></a>
                     </div>
                 </div>
-            </div>  
+            </div> 
+             
         </body>
     )
 }
