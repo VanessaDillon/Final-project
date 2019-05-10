@@ -11,12 +11,12 @@ function Productsingle(){
                         <li><a href="/">Start date</a></li>
                         <li><a href="/">End date</a></li>
                         <li>Selection</li>
-                        <li className="active"><a href="#">Details</a></li>
-                        <li><a href="#">Confirmation</a></li>
+                        <li className="active"><a href="#">Details/ Add ons</a></li>
+                        <li><a href="/Confirm">Confirmation</a></li>
                     </ul>
                 </div>
             </div>
-            <div className="container product">
+            <div className="container singleproduct">
                 <div className="row">
                     <div className="col-sm-6">
                         <img src="http://placehold.it/400x400" className="img-responsive" alt="" />
@@ -26,7 +26,7 @@ function Productsingle(){
                             <div className="col-sm-12">
                                 <h1>Vehicle name here</h1>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur, dolorem ipsum laboriosam officiis voluptates necessitatibus reprehenderit. Facilis quibusdam porro recusandae nam, magnam quis, odio harum tenetur, inventore maiores sunt?</p>
-                                <button>Add to Cart</button>
+                                <a href="/Confirm"><button>Add to Cart</button></a>
                             </div>
                         </div>
                         <div className="row">

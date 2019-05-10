@@ -1,6 +1,7 @@
 import React from "react"
 import {Component} from 'react'
 import "./css/products.css"
+import ProductTile from './ProductTile'
 
 
 class Product extends Component{
@@ -16,13 +17,13 @@ class Product extends Component{
         fetch('http://localhost:8000/api/product')
           .then(response => response.json())
           .then(data => {
-              console.log(data)
-              return this.setState({ data })
+              this.setState({ data })
           })
           .catch(err => {console.log(err)});
       }
 
     render() {
+        let products = this.state.data.map(product => <ProductTile {...product} />)
         return(
             <>
             <div className="container products">
@@ -41,9 +42,9 @@ class Product extends Component{
                                 <li><a href="/">Start date</a></li>
                                 <li><a href="/">End date</a></li>
                                 <li className="active">Selection</li>
-                                <li><a href="#">Details/ Add ons</a></li>
+                                <li><a href="/productsingle">Details/ Add ons</a></li>
                                 <li><a href="#">Payment</a></li>
-                                <li><a href="#">Confirmation</a></li>
+                                <li><a href="/Confirm">Confirmation</a></li>
                             </ul>
                         </div>
                     </div>
@@ -92,6 +93,7 @@ class Product extends Component{
 
                 <div className="container car">
                     <div className="row">
+                        {products}
                         <div className="col-sm-4 product">
                             <img src="images/lamborghini.png" className="img-responsive " alt="" />
                             <h2>Lamborghini</h2>
