@@ -5,13 +5,14 @@ function Productsingle(){
         return(
             
          <React.Fragment>
+
             <div className="container selection">
                 <div className="b-crumb">
                     <ul className="breadcrumb">
                         <li><a href="/">Start date</a></li>
                         <li><a href="/">End date</a></li>
-                        <li>Selection</li>
-                        <li className="active"><a href="#">Details/ Add ons</a></li>
+                        <li><a href="/products">Selection</a></li>
+                        <li className="active"><a href="">Details/ Add ons</a></li>
                         <li><a href="/Confirm">Confirmation</a></li>
                     </ul>
                 </div>
@@ -79,8 +80,7 @@ function Productsingle(){
                     </div>
                 </div>
             </div>
-            </React.Fragment>   
-
+        </React.Fragment>   
         )
     }   
 

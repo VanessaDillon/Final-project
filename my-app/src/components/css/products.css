@@ -1,6 +1,3 @@
-
-
-
 #bgVideo{
     position: fixed;
   right: 0; 
@@ -13,35 +10,45 @@
 }
 
 .car{
-    background-color: rgba(250, 249, 246, 0.185);
+    background-color: rgba(50, 3, 61, 0.623);
    border: 1px solid black;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    
 }
 
 .car .row{
     padding-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
+
+
 .product{
-    color: white;
+    color: whitesmoke;
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 85px;
     
 }
+#price{
+    color: goldenrod;
+    text-shadow: 2px 2px 2px black;
+}
 .product button{
-    background-color: rgba(128, 128, 128, 0.726);
+    background-color: rgba(29, 29, 29, 0.842);
     border-radius: 10px;
     border: 1px solid white;
     padding: 10px 10px 10px 10px;
-    
+    font-size: 25px;
+    color: rgba(238, 232, 240, 0.815);
+    display: flex;
+    justify-content: center;
 }
 .products button:hover{
     background-color: rgba(167, 11, 240, 0.39);
-
-    border: 2px solid rgba(46, 34, 5, 0.897);
+    color: rgba(209, 209, 9, 0.815);
+    border: 5px solid rgba(46, 34, 5, 0.897);
     
 }
 .product:hover{
@@ -49,11 +56,11 @@
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 background-color: rgba(11, 11, 12, 0.979);
-    border: 3px solid goldenrod;
-    transition: all 1s ease-in;
+    border: 5px solid goldenrod;
+    transition: all 0.5s ease-in-out;
 
 }
-.selection ul{
+.pselection ul{
     display: flex;
     flex-direction: row;
     
@@ -91,33 +98,10 @@ background-color: rgba(11, 11, 12, 0.979);
 .product img{
     height: auto;
     width: 300px;
-}
-.product img:hover{
-    background-color: rgba(0, 0, 0, 0.336);
-    transition: all 1s ease-in;
-}
-
-form{
-    background-color: rgba(26, 25, 24, 0.425);
-    border-radius: 15px;
-    color: rgba(248, 248, 248, 0.897);
-    margin-top: 15px;
-    text-shadow: 1px 1px 1px rgb(10, 10, 10);
-    text-align: center;
     border: 1px solid goldenrod;
-    padding-bottom: 15px;
 }
 
-form:hover{
-    background-color: rgba(79, 2, 102, 0.877);
-    transition: all ease-in-out 0.2s;
-    
-}
-form p{
-    float: left;
-    margin-left: 15px;
-    padding-top: 15px;
-}
+
 
 option{
     color: rgb(15, 15, 15);

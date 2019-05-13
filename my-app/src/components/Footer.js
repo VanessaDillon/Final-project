@@ -7,7 +7,7 @@ function Footer() {
         <footer className=" footer">
         <div className="row">
             <div className="col-sm-3">
-                <img src="images/luxurylifts.png" alt="" className="flogo img-responsive" />
+                <img src="/images/luxurylifts.png" alt="" className="flogo img-responsive" />
             </div>
             <div className="col-sm-3">
                 <ul>

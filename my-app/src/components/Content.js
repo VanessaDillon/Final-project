@@ -1,8 +1,11 @@
 import React from "react"
 import "./css/home.css"
+
 function Content() {
     return(
+
         <main>
+            
         <form action="#">
             <div className=" formdata">
                 <div className="row">
@@ -23,7 +26,7 @@ function Content() {
             <div className="row">
                 <div className="col-sm-12">
                     <div className="hero">
-                        <div><img src="images/fancycar.jpg" alt="" className="img-responsive slide"  /></div>
+                        <div><img src="images/carleaving.jpg" alt="" className="img-responsive slide"  /></div>
                         <div className="row">
                             <div className="col-sm-12 herologo">
                                 <img src="images/luxurylifts.png" alt="" className="flogo img-responsive" />
@@ -39,7 +42,7 @@ function Content() {
         <div className="container motto">
             <div className="row">
                 <div className="col-sm-12">
-                    <h1><i className="fas fa-quote-left"></i> <strong>Love a Vehicle, Right for Travel</strong> <i className="fas fa-quote-right"></i></h1>
+                    <h1>"Love a Vehicle, Right for Travel"</h1>
                 </div>
             </div>
         </div>      
@@ -47,7 +50,7 @@ function Content() {
         <div className="container content">
             <div className="row">
                 <div className="col-sm-12">
-                    <h1><strong>Approved Features</strong></h1>
+                    <h1>Approved Features</h1>
                 </div>
             </div>
         </div>
@@ -79,14 +82,14 @@ function Content() {
         </div>
         <div className="container ads">
                 <div className="row">
-                    <div className="col-sm-4">
-                        <img src="images/group.jpg" className="img-responsive ad" alt="" />
+                    <div className="col-sm-4 ad">
+                        <img src="images/group.jpg" className="img-responsive " alt="" />
                     </div>
-                    <div className="col-sm-4">
-                        <img src="images/group2.jpg" className="img-responsive ad" alt="" />
+                    <div className="col-sm-4 ad">
+                        <img src="images/group3.jpg" className="img-responsive " alt="" />
                     </div>
-                    <div className="col-sm-4">
-                        <img src="images/group3.jpg" className="img-responsive ad" alt="" />
+                    <div className="col-sm-4 ad">
+                        <img src="images/group2.jpg" className="img-responsive " alt="" />
                     </div>
                 </div>
             </div>
@@ -106,38 +109,42 @@ function Content() {
                 </div>
             </div>
         </div>
-        <div className=" panels">
+        <div className="container panels">
             <div className="row">
-                <div className="col-sm-4 adbox">
-                    <img src="images/rental.jpg" className="img-responsive" alt="" id="rental" />
-
-                    <div className="box">
-                        <p>lorem lorem lorem</p>
-                        <button>Click me</button>
-                    </div> 
-                </div>
-                <div className="col-sm-4 midbox">
+                <div className="col-sm-12 midbox">
                     <h1>Rent with us!</h1>
-                    <p>Lorem modi eum, officia molestias ratione nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, laborum. Animi harum at, porro odio aliquam ad vitae voluptates praesem</p>
-                    <div className="lists">
+                    <p>We welcome your business with open arms ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, laborum. Animi harum at, porro odio aliquam ad vitae voluptates praesem</p>
+                    <div className="container lists">
                         <div className="row">
                             <div className="col-sm-12">
-                                <ul>
+                                <ol>
                                     <li>Lorem ipsum dolor sit amet</li>
                                     <li>kdfjhsdkfha</li>
                                     <li>sdfjlsdjflad</li>
                                     <li>jfhldsjlskdfjlsd</li>
-                                </ul>
+                                    <li>lorem lorem lorem</li>
+                                </ol>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-sm-4 adbox">
-                    <img src="images/rental2.jpg" className="img-responsive" alt="" id="rental" />
-                    <div className="box">
-                        <p>lorem lorem lorem</p>
-                        <button>Click me</button>
+                    <div className="row">
+                        <div className="col-sm-6 adbox">
+                            <img src="images/rental.jpg" className="img-responsive" alt="" id="rental" />
+                            <div className=" box">
+                                <p>lorem lorem lorem</p>
+                                <button>Click me</button>
+                            </div> 
+                        </div>
+
+                        <div className="col-sm-6 adbox">
+                            <img src="images/rental2.jpg" className="img-responsive" alt="" id="rental" />
+                            <div className="box">
+                                <p>lorem lorem lorem</p>
+                                <button>Click me</button>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
