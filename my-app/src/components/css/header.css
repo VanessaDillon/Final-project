@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgba(250, 250, 249, 0.801);
+    background-color: rgba(20, 20, 20, 0.801);
     width: 100%;
     border-bottom: 1px solid black;
     border-top: 5px solid gray;
@@ -19,14 +19,14 @@
     flex-direction: row;
     align-items: stretch;
     padding: 10px 10px 10px 10px;
-    color: rgb(43, 1, 92);
+    color: rgb(250, 249, 252);
     text-shadow: 5px 3px 5px solid black;
     font-size: 18px;
 
     
 }
 .nav-links:hover{
-    color: rgb(20, 20, 20);
+    color: rgb(219, 106, 253);
     text-shadow: 5px 5px 5px solid white;
 }
 .nav-main a:hover{
@@ -36,12 +36,13 @@
 }
 
 
-.login p{
+.login a{
     display: inline-flex;
     flex-direction: row;
     position: relative;
     padding-left: 280px;
-
+    color: white;
     margin-left: 10px;
+    text-decoration: none;
 }
 

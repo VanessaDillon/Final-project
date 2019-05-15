@@ -19,7 +19,7 @@ function Header() {
                 </div>
 
                 <div className="col-sm-4 login">
-                    <p ><a href="/Login">Login </a>| <a href="/Login"> Signup</a></p>
+                    <p><a href="/Login">Login </a>| <a href="/Login"> Signup</a></p>
                 </div>
 
             </div>

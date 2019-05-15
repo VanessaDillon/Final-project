@@ -11,51 +11,51 @@ background: linear-gradient(180deg, rgba(244,240,240,0.958420868347339) 0%, rgba
     top: 0;
 }
 .banner-text{
-    position: absolute;
-    bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    right: 125px;
     color: rgb(95, 207, 50);
     background-color: rgba(7, 7, 7, 0.87);
     border: 1px solid brown;
     border-radius: 15px;
     text-align: center;
-    padding: 10px;
+    
+    position: relative;
+    bottom: 450px;
+    padding-bottom: 25px;
 }
 .banner-below{
     border: 1px solid rgb(255, 254, 254);
-    width: 50%;
+    width: 70%;
     height: auto;
     position: absolute;
-    top: 550px;
-    left: 300px;
+    top: 450px;
+    left: 175px;
     padding-bottom: 25px;
-    background-color: rgba(165, 42, 42, 0.849);
+    background-color: rgba(165, 42, 42, 0.932);
     color: rgba(229, 248, 122, 0.938);
     text-align: center;
 }
 .banner-below img{
     width: 75%;
-    height: 50%;
-    border: 2px solid white;
-    margin-left: 75px;
-    
+    height: auto;
+    border: 25px solid rgba(255, 255, 255, 0.014);
 }
 .banner-text:hover{
     background-color: rgba(116, 113, 113, 0.822);
     transition: all 1s ease-in-out;
     border: 1px solid black;
-    color: rgb(2, 34, 2);
+    color: rgb(236, 252, 236);
 }
+
 .banner button{
-    margin-top: 15px;
-    padding: 10px;
     border: 2px solid brown;
     color: rgb(92, 22, 22);
     background-color: rgba(136, 132, 132, 0.945);
-    
-    
+    top: 0px;
+    position: relative;
+    margin-left: 50px;
+    left: 450px;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
 }
 .banner button:hover{
     background-color: brown;
@@ -63,17 +63,17 @@ background: linear-gradient(180deg, rgba(244,240,240,0.958420868347339) 0%, rgba
     color: white;
 }
 .review{
-    margin-top:245px;
+    margin-top: 125px;
+    background-color: white;
+    border: 5px solid brown;
     padding-top: 15px;
-
-
 }
 .review .panel{
-    border: 3px solid brown;
-    border-radius: 25px;
+    border-top: 1px solid brown;
+    border-radius: 1px;
     padding: 5px;
     
-   
+    background-color: white;
 }
 
 .product{

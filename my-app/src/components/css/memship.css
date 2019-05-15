@@ -3,10 +3,10 @@
     background-color: rgba(128, 128, 128, 0.719);
     width: 50%;
     height: 50%;
-    border:1px solid rgb(22, 22, 22);
+    border:1px solid rgb(252, 248, 248);
     position: relative;
     right: 70px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     margin-top: 30px;
     
     margin-bottom: 30px;
@@ -31,7 +31,7 @@
 .contact{
     background-color: rgba(244, 248, 4, 0.651);
     border-left: 10px solid whitesmoke;
-                        
+
 }
 
 .orders{
