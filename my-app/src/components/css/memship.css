@@ -20,3 +20,26 @@
     position: relative;
     left: 150%;
 }
+.spacer h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.spacer{
+    margin-bottom: 50px;
+    border: 2px solid whitesmoke;
+}
+.contact{
+    background-color: rgba(244, 248, 4, 0.651);
+    border-left: 10px solid whitesmoke;
+                        
+}
+
+.orders{
+    background-color: rgba(19, 223, 80, 0.507);
+}
+.orders img{
+    height: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}

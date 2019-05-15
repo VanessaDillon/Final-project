@@ -23,7 +23,9 @@ class Product extends Component{
       }
 
     render() {
+        
         let products = this.state.data.map(product => <ProductTile {...product} />)
+
         return(
             <>
             <div className="container products">

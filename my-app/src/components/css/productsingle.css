@@ -1,9 +1,13 @@
  body{
     font-family: 'ZCOOL XiaoWei', serif;
+    background: rgb(244,240,240);
+background: linear-gradient(0deg, rgba(244,240,240,0.958420868347339) 0%, rgba(102,14,90,1) 53%, rgba(49,10,43,1) 81%, rgba(8,7,7,0.9780287114845938) 100%);
 }
 
 .singleproduct img{
-    border-top: 2px solid rgb(41, 2, 41);
+    border: 2px solid rgba(214, 174, 226, 0.918);
+    width: 550px;
+    height: auto;
 }
 .singleproduct ul{
     padding-top: 45px;
@@ -21,17 +25,36 @@
 }
 .ads{
     margin: 40px auto 40px auto;
+    background-color: white;
+    border-radius: 15px;
+    text-align:center;
+    font-size: 36px;
+    text-shadow: 2px 2px 2px goldenrod;
+    padding: 15px;
 }
 .ads img{
-    border: 2px solid rgb(41, 2, 41);
+    height: 150px;
+    width: 200px;
+    background-color: rgba(218, 165, 32, 0.788);
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 25px;
+    
 }
 
 .singleproduct{
     margin-top:25px;
 } 
 
+.text{
+  color: white;
+}
+.comments{
+  background-color: rgba(255, 255, 255, 0.568);
+  border-radius: 15px;
+  
 
-
+}
 
 /* 
   ##Device = Desktops

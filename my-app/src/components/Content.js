@@ -81,31 +81,36 @@ function Content() {
             </div>
         </div>
         <div className="container ads">
-                <div className="row">
-                    <div className="col-sm-4 ad">
-                        <img src="images/group.jpg" className="img-responsive " alt="" />
-                    </div>
-                    <div className="col-sm-4 ad">
-                        <img src="images/group3.jpg" className="img-responsive " alt="" />
-                    </div>
-                    <div className="col-sm-4 ad">
-                        <img src="images/group2.jpg" className="img-responsive " alt="" />
-                    </div>
+            <div className="row">
+                <div className="col-sm-4 ad">
+                    <img src="images/group.jpg" className="img-responsive " alt="" />
+                </div>
+                <div className="col-sm-4 ad">
+                    <img src="images/group3.jpg" className="img-responsive " alt="" />
+                </div>
+                <div className="col-sm-4 ad">
+                    <img src="images/group2.jpg" className="img-responsive " alt="" />
                 </div>
             </div>
-        <div className="container award">
+        </div>
+        <div className=" award">
+            <div className="row">
+                <div className="col-sm-12">
+                    <h1>Presented Awards</h1>
+                </div>
+            </div>
             <div className="row">
                 <div className="col-sm-4 award-panel">
                     <i className="fas fa-medal fa-2x" id="medal"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing e nesciunt iufugit, debitis odit! Illo, pariatur. Deserunt!</p>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing e nesciunt iufugit, debitis odit! Illo, pariatur. Deserunt!"</p>
                 </div>
                 <div className="col-sm-4 award-panel">
                     <i className="fas fa-medal fa-2x" id="medal"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisics at aperiam sint ex delectus in. Quidem recusandae illo suscipit, sit unde perspiciatis nobis voluptatem?</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisics at aperiam sint ex delectus in. Quidem recusandae illo suscipit, sit unde perspiciatis nobis voluptatem?"</p>
                 </div>
                 <div className="col-sm-4 award-panel">
                     <i className="fas fa-medal fa-2x" id="medal"></i>
-                    <p>Lorem ipsum dolor sit amet, conluptatibus aspernatur, placeat at totam ratione fugiat a laboriosam error laborum vero.</p>
+                    <p>"Lorem ipsum dolor sit amet, conluptatibus aspernatur, placeat at totam ratione fugiat a laboriosam error laborum vero."</p>
                 </div>
             </div>
         </div>

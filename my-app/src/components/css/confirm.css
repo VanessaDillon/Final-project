@@ -1,5 +1,7 @@
-body{
+.banner{
     font-family: 'ZCOOL XiaoWei', serif;
+    background: rgb(244,240,240);
+background: linear-gradient(180deg, rgba(244,240,240,0.958420868347339) 0%, rgba(102,14,90,1) 53%, rgba(49,10,43,1) 81%, rgba(8,7,7,0.9780287114845938) 100%);
 }
 
 

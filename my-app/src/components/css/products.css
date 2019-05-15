@@ -10,8 +10,8 @@
 }
 
 .car{
-    background-color: rgba(50, 3, 61, 0.623);
-   border: 1px solid black;
+    background-color: rgba(224, 224, 224, 0.308);
+   
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 45px;
@@ -56,7 +56,7 @@
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 background-color: rgba(11, 11, 12, 0.979);
-    border: 5px solid goldenrod;
+    border: 1px solid goldenrod;
     transition: all 0.5s ease-in-out;
 
 }
@@ -102,6 +102,27 @@ background-color: rgba(11, 11, 12, 0.979);
 }
 
 
+.form{
+    background-color: rgba(26, 25, 24, 0.425);
+    border-radius: 15px;
+    color: rgba(248, 248, 248, 0.897);
+    margin-top: 15px;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+    text-align: center;
+    border: 1px solid goldenrod;
+    padding-bottom: 15px;
+}
+
+.form:hover{
+    background-color: rgba(79, 2, 102, 0.877);
+    transition: all ease-in-out 0.2s;
+    
+}
+.form p{
+    float: left;
+    margin-left: 15px;
+    padding-top: 15px;
+}
 
 option{
     color: rgb(15, 15, 15);

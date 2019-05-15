@@ -8,16 +8,17 @@ function ProductTile(props) {
             <h3 id="price">{props.price}</h3>
             
             <p>{props.description}</p>
+
             <div className="container choices">
                 <div className="row">
                     <div className="col-sm-4">
-                        <p>{props.color}</p>
+                        <p>Color: {props.color}</p>
                     </div>
                     <div className="col-sm-4">
-                        <p>{props.seats}</p>
+                        <p>Seats: {props.seats}</p>
                     </div>
                     <div className="col-sm-4">
-                        <p>{props.year}</p>
+                        <p>Year :{props.year}</p>
                     </div>
                 </div>
             </div>

@@ -1,37 +1,31 @@
-body{
+main{
     font-family: 'ZCOOL XiaoWei', serif;
-
+    background: rgb(244,240,240);
+    background: linear-gradient(180deg, rgba(244,240,240,0.958420868347339) 0%, rgba(102,14,90,1) 53%, rgba(49,10,43,1) 81%, rgba(8,7,7,0.9780287114845938) 100%);
 
 }
 
 
 
 
-.profile-image{
-    position: relative;
-    left: 90px;
-    margin-top: 20px;
-    background-color: transparent;
-    padding: 20px 20px 20px 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: red;
-    border: 2px solid salmon;
+.profiles img{
+   height: auto;
+   width: 200px;
+   margin-left: 45px;
+   border: 1px solid rgb(243, 240, 245);
 }
-
+.t{
+    border-top: 10px solid rgb(248, 246, 246);
+}
 .about{
     text-align:center;
     
-    border-top: 10px solid red;
-    border-bottom: 2px solid black;
-    border-left: 3px solid rgb(102, 101, 101);
-    border-right: 3px solid rgb(102, 101, 101);
+    
+    border: 2px solid black;
     padding-bottom: 100px;
     margin-top: 35px;
-    /* padding-top: 155px;
-    margin-top: 50px;
-    margin-bottom: 25px; */
-    color: white;
+    
+
     background: url("../images/luxury.jpg") no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,7 +35,7 @@ body{
     
 }
 .about p{
-    color: grey;
+    color: rgb(252, 248, 248);
     position: relative;
     top: 75px;
     text-shadow: 1px 1px 1px black;
@@ -59,8 +53,7 @@ body{
 }
 .title{
     font-size: 54px;
-    color: maroon;
-    font-weight: bolder;
+    color: rgb(65, 64, 64);
     text-shadow: 1px 1px 1px grey;
     text-align: center;
 
@@ -69,7 +62,7 @@ body{
 .profiles{
     
     color: whitesmoke;
-    background-color: rgba(241, 217, 156, 0.521);
+    background-color: rgba(15, 14, 11, 0.521);
     border: 2px solid grey;
     border-radius: 15px;
     margin-top: 35px;
@@ -77,18 +70,18 @@ body{
 
 }
 .profiles:hover{
-    border: 15px solid white;
-    border-top: 5px solid goldenrod;
-    border-bottom: 5px solid goldenrod;
-    transition: all 1s ease-in-out;
+    border: 1px solid rgb(8, 6, 6);
+    border-left: 5px solid rgb(14, 13, 13);
+    border-right: 5px solid rgb(10, 10, 10);
+    transition: border 1s ease-in-out;
 }
 .profiles:hover h2{
-    color: rgba(24, 12, 133, 0.836);
+    color: rgba(6, 6, 7, 0.836);
     font-size: 38px;
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
 }
 .profiles:hover p{
-    color: red;
+    color: rgb(255, 253, 253);
 }
 .profiles h2{
     text-shadow: 1px 1px 1px black;
@@ -101,7 +94,7 @@ body{
     
 }
 .profiles:hover h1{
-    color: maroon;
+
     text-shadow: 1px 1px 1px black;
 }
 .profiles p{
@@ -117,6 +110,8 @@ body{
     font-size: 48px;
     text-align: center;
     width: 100%;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px grey;
 }
 
 .testimonials .far{
@@ -127,31 +122,32 @@ body{
     padding-top: 50px;
 }
 .testimonials div{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    
     padding-left: 35px;
     padding-right: 35px;
     
 }
 .testimonials{
-    background-color: rgba(220, 173, 231, 0.5);
-    
-    margin-top: 180px;
-    margin-bottom: 120px;
-    box-shadow: 10px -9px 67px 17px rgba(245,241,241,1);
--webkit-box-shadow: 10px -9px 67px 17px rgba(245,241,241,1);
--moz-box-shadow: 10px -9px 67px 17px rgba(245,241,241,1);
-    
-box-shadow: -34px -46px 15px -3px rgba(147,102,217,0.64);
--webkit-box-shadow: -34px -46px 15px -3px rgba(147,102,217,0.64);
--moz-box-shadow: -34px -46px 15px -3px rgba(147,102,217,0.64);
+    background-color: rgba(235, 232, 232, 0.014);
+    border: 1px solid black;
+    margin-top: 80px;
+    padding-bottom: 60px;
+    background: linear-gradient(0deg, rgba(244,240,240,0.958420868347339) 0%, rgba(102,14,90,1) 53%, rgba(49,10,43,1) 81%, rgba(8,7,7,0.9780287114845938) 100%);
 
 }
 .testimonials p:hover{
-    text-shadow: 1px 1px 1px white;
-    color: maroon;
+    text-shadow: 1px 1px 1px black;
+    color: whitesmoke;
     font-size: 18px;
     transition: all 1s ease-in;
+}
+.testimonials .col-sm-6{
+    color: grey;
+    text-shadow: 1px 1px 1px rgb(91, 3, 163);
+    
+    background: rgb(244,240,240);
+
 }
 .fa-user-circle{
     color: rgb(211, 136, 211);

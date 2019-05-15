@@ -169,6 +169,18 @@ form{
     color: white;
     text-shadow: 4px 2px 2px black;
 }
+.award h1{
+    padding-bottom: 25px;
+    
+}
+.award{
+    background-color: rgba(128, 0, 0, 0.021);
+    color: rgb(255, 250, 250);
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid rgb(252, 250, 249);
+}
+
 /* Responsive */
 /* 
   ##Device = Desktops

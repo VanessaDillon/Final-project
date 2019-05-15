@@ -3,6 +3,7 @@ import React from "react"
 import "./css/memship.css"
 function Membership(){
     return(
+        <>
         <div className="container profile">
             <div className="row">
                 <div className="col-sm-6">
@@ -41,7 +42,58 @@ function Membership(){
                 </div>
             </div>
         </div>
-
+        <div className="container spacer">
+            <div className="row">
+                <div className="col-sm-4 contact">
+                    <h1>Contact Us</h1>
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <p>Email</p>
+                            <p>luxurylifts@email.com</p>
+                        
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <p>Location</p>
+                            <p>Jackson, Ms</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <a href="/about">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-8 orders">
+                    <h1>Recent Orders</h1>
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <img src="/images/bentley.png" />
+                        </div>
+                        <div className="col-sm-4">
+                            <img src="/images/bmw.png" />
+                        </div>
+                        <div className="col-sm-4">
+                            <img src="/images/cadillac.png" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <img src="/images/porsche.png" />
+                        </div>
+                        <div className="col-sm-4">
+                            <img src="/images/lamborghini.png" />
+                        </div>
+                        <div className="col-sm-4">
+                            <img src="/images/rangerover.png" />
+                        </div>
+                    </div>
+             
+                </div>
+            </div>
+        </div>
+        </>
     )
 }
 
