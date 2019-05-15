@@ -56,7 +56,7 @@ class Productsingle extends Component{
         <div className="container singleproduct " key={products.id}>
             <div className="row">
                 <div className="col-sm-6">
-                    <img src={`/${products.img}`} className="img-responsive" alt="" />
+                    <img src={`/${products.img}`} className="img-responsive" alt="products" />
                 </div>
 
                 <div className="col-sm-6">

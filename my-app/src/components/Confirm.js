@@ -7,7 +7,7 @@ function Confirm(){
         <div className=" banner">
         <div className="row">
             <div className="col-sm-12">
-                <img src="images/insidecar.jpg" alt="" className="img-responsive;" />
+                <img src="images/insidecar.jpg" alt="inside of car" className="img-responsive;" />
             </div>
         </div>
         <div className=" banner-text">
@@ -34,7 +34,7 @@ function Confirm(){
             </div>
             <div className="row">
                 <div className="col-sm-12">
-                    <img src="images/carleaving.jpg" alt="" className="img-responsive" />
+                    <img src="images/carleaving.jpg" alt="leaving car" className="img-responsive" />
                 </div>
             </div>
         </div>

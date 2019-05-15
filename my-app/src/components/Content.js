@@ -26,10 +26,10 @@ function Content() {
             <div className="row">
                 <div className="col-sm-12">
                     <div className="hero">
-                        <div><img src="images/carleaving.jpg" alt="" className="img-responsive slide"  /></div>
+                        <div><img src="images/carleaving.jpg" alt="car leaving" className="img-responsive slide"  /></div>
                         <div className="row">
                             <div className="col-sm-12 herologo">
-                                <img src="images/luxurylifts.png" alt="" className="flogo img-responsive" />
+                                <img src="images/luxurylifts.png" alt="logo" className="flogo img-responsive" />
                             </div>
                         </div>
                     </div>
@@ -83,13 +83,13 @@ function Content() {
         <div className="container ads">
             <div className="row">
                 <div className="col-sm-4 ad">
-                    <img src="images/group.jpg" className="img-responsive " alt="" />
+                    <img src="images/group.jpg" className="img-responsive " alt="group of people" />
                 </div>
                 <div className="col-sm-4 ad">
-                    <img src="images/group3.jpg" className="img-responsive " alt="" />
+                    <img src="images/group3.jpg" className="img-responsive " alt="group of people" />
                 </div>
                 <div className="col-sm-4 ad">
-                    <img src="images/group2.jpg" className="img-responsive " alt="" />
+                    <img src="images/group2.jpg" className="img-responsive " alt="group of people" />
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@ function Content() {
                     </div>
                     <div className="row">
                         <div className="col-sm-6 adbox">
-                            <img src="images/rental.jpg" className="img-responsive" alt="" id="rental" />
+                            <img src="images/rental.jpg" className="img-responsive" alt="rent with us" id="rental" />
                             <div className=" box">
                                 <p>lorem lorem lorem</p>
                                 <button>Click me</button>
@@ -142,7 +142,7 @@ function Content() {
                         </div>
 
                         <div className="col-sm-6 adbox">
-                            <img src="images/rental2.jpg" className="img-responsive" alt="" id="rental" />
+                            <img src="images/rental2.jpg" className="img-responsive" alt="rent with us" id="rental" />
                             <div className="box">
                                 <p>lorem lorem lorem</p>
                                 <button>Click me</button>

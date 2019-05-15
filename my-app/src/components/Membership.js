@@ -69,24 +69,24 @@ function Membership(){
                     <h1>Recent Orders</h1>
                     <div className="row">
                         <div className="col-sm-4">
-                            <img src="/images/bentley.png" />
+                            <img src="/images/bentley.png" alt="bentley" />
                         </div>
                         <div className="col-sm-4">
-                            <img src="/images/bmw.png" />
+                            <img src="/images/bmw.png" alt="bmw" />
                         </div>
                         <div className="col-sm-4">
-                            <img src="/images/cadillac.png" />
+                            <img src="/images/cadillac.png" alt="cadillac" />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-4">
-                            <img src="/images/porsche.png" />
+                            <img src="/images/porsche.png" alt="porsche" />
                         </div>
                         <div className="col-sm-4">
-                            <img src="/images/lamborghini.png" />
+                            <img src="/images/lamborghini.png" alt="lamborghini" />
                         </div>
                         <div className="col-sm-4">
-                            <img src="/images/rangerover.png" />
+                            <img src="/images/rangerover.png" alt="rangerover" />
                         </div>
                     </div>
              

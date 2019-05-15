@@ -3,7 +3,7 @@ import React from 'react'
 function ProductTile(props) {
     return (
         <div className="col-sm-4 product">
-            <img src={`/${props.img}`} className="img-responsive " alt="" />
+            <img src={`/${props.img}`} className="img-responsive " alt="product" />
             <h2>{props.name}</h2>
             <h3 id="price">{props.price}</h3>
             

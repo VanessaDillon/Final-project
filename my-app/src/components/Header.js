@@ -6,7 +6,7 @@ function Header() {
         <div className=" navbar">
             <div className="row">
                 <div className="col-sm-4 logo">
-                    <a href="/"><img src="/images/luxurylifts.png" className="img-responsive" alt=""/></a>
+                    <a href="/"><img src="/images/luxurylifts.png" className="img-responsive" alt="logo"/></a>
                 </div>
 
                 <div className="col-sm-4">

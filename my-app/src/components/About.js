@@ -21,7 +21,7 @@ function About(){
                         <div className="row">
                             <div className="col-sm-12">
                                 <h1>Larry Weems</h1>
-                             <img src="/images/larry.jpg" className="img-responsive profile-image" alt=""/>
+                             <img src="/images/larry.jpg" className="img-responsive profile-image" alt="larry"/>
                                 <p>As Chief Executive Officer I .... Lorem ipsum dolor sit amet consectetur adip.</p>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ function About(){
                         <div className="row">
                             <div className="col-sm-12">
                                 <h1>Vanessa Dillon</h1>
-                            <img src="/images/vanessa.jpg" className="img-responsive profile-image" alt=""/>
+                            <img src="/images/vanessa.jpg" className="img-responsive profile-image" alt="vanessa"/>
                                 <p>As Chief Design Officer I .... Lorem ipsum dolor sit amet consecte</p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ function About(){
                         <div className="row">
                             <div className="col-sm-12">
                                 <h1>Rodney Smith</h1>
-                            <img src="/images/rodney.jpg" className="img-responsive profile-image" alt=""/>
+                            <img src="/images/rodney.jpg" className="img-responsive profile-image" alt="rodney"/>
                                 <p>As Chief Meta-data Officer I .... Lorem aliquidates excema dolorum.</p>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ function About(){
                         <div className="row">
                             <div className="col-sm-12">
                                 <h1>Travis Cooley</h1>
-                            <img src="/images/travis.jpg" className="img-responsive profile-image" alt=""/>        
+                            <img src="/images/travis.jpg" className="img-responsive profile-image" alt="travis"/>        
                                 <p>As Chief Operating Officer I .... Lorem ipsum dolor sit amet consectetur adipis</p>
                             </div>
                         </div>
